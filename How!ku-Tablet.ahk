@@ -77,10 +77,10 @@ HideTrayTip() {
 
 
 
-Fatrektablet(mode)
+howku(mode)
 {
-	ControlSend,, include "profiles/select/%mode%.cfg"{enter}, Tabletdriver
-	FileAppend,, %InDir%save\%mode%.FatrekTablet
+	ControlSend,, include  profiles/select/%mode%.cfg {enter}, Tabletdriver
+	FileAppend,, %InDir%save\%mode%.howku
 	return
 }
 
@@ -95,13 +95,13 @@ If (ErrorLevel = 0)
 	ControlSendraw,, RunServiceOnly.bat, Tabletdriver
 	ControlSend,, {enter}, Tabletdriver
 	sleep, 50
-	if FileExist("save\big.fatrektablet")
+	if FileExist("save\big.howku")
 	{
-		ControlSend,, include "profiles/select/big.cfg"{enter}, Tabletdriver
+		ControlSend,, include  profiles/select/big.cfg {enter}, Tabletdriver
 	}
-	if FileExist("save\small.fatrektablet")
+	if FileExist("save\small.howku")
 	{
-		ControlSend,, include "profiles/select/small.cfg"{enter}, Tabletdriver
+		ControlSend,, include profiles/select/small.cfg {enter}, Tabletdriver
 	}
 }
 
@@ -134,25 +134,25 @@ if fileExist("profiles\" NewTitle ".cfg")
 	FileDelete, profiles\%NewTitle%.cfg
 }
 
-if fileExist("save\relative.FatrekTablet")
+if fileExist("save\relative.howku")
 {
 	FileAppend, Include "profiles/select/relative.cfg"`n, %A_WorkingDir%\profiles\%NewTitle%.cfg
 }
-if fileExist("save\absolute.FatrekTablet")
+if fileExist("save\absolute.howku")
 {
 	FileAppend, Include "profiles/select/absolute.cfg"`n, %A_WorkingDir%\profiles\%NewTitle%.cfg
 }
-if fileExist("save\Digitizer.FatrekTablet")
+if fileExist("save\Digitizer.howku")
 {
 	FileAppend, Include "profiles/select/Digitizer.cfg"`n, %A_WorkingDir%\profiles\%NewTitle%.cfg
 }
 
 
-if FileExist("save\small.fatrektablet")
+if FileExist("save\small.howku")
 {
 	FileAppend, Include "profiles/select/small.cfg", %A_WorkingDir%\profiles\%NewTitle%.cfg
 }
-if FileExist("save\big.fatrektablet")
+if FileExist("save\big.howku")
 {
 	FileAppend, Include "profiles/select/big.cfg", %A_WorkingDir%\profiles\%NewTitle%.cfg
 }
@@ -175,7 +175,7 @@ if FileExist(fileexits)
 Else
 {
 	tooleytipe("Default profile",1000)
-	ControlSend,, include "profiles/default.cfg"{enter}, Tabletdriver
+	ControlSend,, include  profiles/default.cfg {enter}, Tabletdriver
 	return
 }
 
@@ -201,54 +201,54 @@ return
 
 ^f17::
 KeyWait, Ctrl
-if FileExist("save\Relative.fatrektablet")
+if FileExist("save\Relative.howku")
 {
-	FileDelete, save\Relative.fatrektablet
-	Fatrektablet("absolute")
+	FileDelete, save\Relative.howku
+	howku("absolute")
 	tooleytipe("absolute-Tablet mode",1000)
 	return
 }
-if FileExist("save\absolute.fatrektablet")
+if FileExist("save\absolute.howku")
 {
-	FileDelete, save\absolute.fatrektablet
-	Fatrektablet("digitizer")
+	FileDelete, save\absolute.howku
+	howku("digitizer")
 	tooleytipe("Digitizer-Tablet mode",1000)
 	return
 }
-if FileExist("save\Digitizer.fatrektablet")
+if FileExist("save\Digitizer.howku")
 {
-	FileDelete, save\Digitizer.fatrektablet
-	Fatrektablet("relative")
+	FileDelete, save\Digitizer.howku
+	howku("relative")
 	tooleytipe("Relative-Tablet mode",1000)
 	return
 }
 Else
 {
 	
-	Fatrektablet("absolute")
+	howku("absolute")
 	return
 }
 
 ^!f17::
 KeyWait, Ctrl
 Keywait, Alt
-if FileExist("save\small.fatrektablet")
+if FileExist("save\small.howku")
 {
-	FileDelete, save\small.fatrektablet
-	Fatrektablet("big")
+	FileDelete, save\small.howku
+	howku("big")
 	tooleytipe("big-Tablet size",1000)
 	return
 }
-if FileExist("save\big.fatrektablet")
+if FileExist("save\big.howku")
 {
-	FileDelete, save\big.fatrektablet
-	Fatrektablet("small")
+	FileDelete, save\big.howku
+	howku("small")
 	tooleytipe("small-Tablet size",1000)
 	return
 }
 Else
 {
-	Fatrektablet("big")
+	howku("big")
 	return
 }
 
@@ -263,13 +263,13 @@ IfMsgBox, No
 IfMsgBox, Timeout
     Return 
 
-if FileExist("save\upsidedown-view.fatrektablet")
+if FileExist("save\upsidedown-view.howku")
 {
-	FileDelete, %A_WorkingDir%\save\upsidedown-view.fatrektablet
+	FileDelete, %A_WorkingDir%\save\upsidedown-view.howku
 	FileDelete, %A_WorkingDir%\config\usersettings.cfg
 	FileDelete, %A_WorkingDir%\profiles\select\small.cfg
 
-	FileAppend,, %A_WorkingDir%\save\normal-view.FatrekTablet
+	FileAppend,, %A_WorkingDir%\save\normal-view.howku
 	FileCopy, %A_WorkingDir%\profiles\select\Normal\usersettings.cfg, %A_WorkingDir%\config\
 	FileCopy, %A_WorkingDir%\profiles\select\Normal\small.cfg, %A_WorkingDir%\profiles\select\
 	HideTrayTip()
@@ -278,13 +278,13 @@ if FileExist("save\upsidedown-view.fatrektablet")
 	reload
 	return
 }
-if FileExist("save\normal-view.fatrektablet")
+if FileExist("save\normal-view.howku")
 {
-	FileDelete, %A_WorkingDir%\save\normal-view.fatrektablet
+	FileDelete, %A_WorkingDir%\save\normal-view.howku
 	FileDelete, %A_WorkingDir%\config\usersettings.cfg
 	FileDelete, %A_WorkingDir%\profiles\select\small.cfg
 
-	FileAppend,, %A_WorkingDir%\save\upsidedown-view.FatrekTablet
+	FileAppend,, %A_WorkingDir%\save\upsidedown-view.howku
 	FileCopy, %A_WorkingDir%\profiles\select\upsidedown\usersettings.cfg, %A_WorkingDir%\config\
 	FileCopy, %A_WorkingDir%\profiles\select\upsidedown\small.cfg, %A_WorkingDir%\profiles\select\
 	HideTrayTip()
@@ -295,7 +295,7 @@ if FileExist("save\normal-view.fatrektablet")
 }
 Else
 {
-	FileAppend,, %A_WorkingDir%\save\normal-view.FatrekTablet
+	FileAppend,, %A_WorkingDir%\save\normal-view.howku
 	return
 }
 
@@ -371,10 +371,6 @@ Tray_Refresh() {
 ;#########################################################################################################################################################################################
 ;#########################################################################################################################################################################################
 ;########################################################################################################################################################################################
-
-
-
-f23::return
 
 ;####################################################################
 ;####################################################################
