@@ -1,6 +1,6 @@
 ; search for #=# to find keywords in this looooooong looooooong script
 #NoEnv
-Menu, Tray, Icon, GUI\icon.ico
+
 SetKeyDelay, 0, 50
 #SingleInstance force
 #NoEnv
