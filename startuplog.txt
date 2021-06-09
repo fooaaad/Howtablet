@@ -1,648 +1,648 @@
-[2021-06-08 08:49:33.683] \ Reading 'config\serviceonly.cfg'
-[2021-06-08 08:49:33.683] >> Include "config\init.cfg"
-[2021-06-08 08:49:33.683] \ Reading 'config\init.cfg'
-[2021-06-08 08:49:33.683] >> Log startuplog.txt
-[2021-06-08 08:49:33.683] Log file 'startuplog.txt' opened.
-[2021-06-08 08:49:33.683] >> LogDirect true
-[2021-06-08 08:49:33.684] Log direct print = True
-[2021-06-08 08:49:33.684] >> Include "config\tablet.cfg"
-[2021-06-08 08:49:33.684] \ Reading 'config\tablet.cfg'
-[2021-06-08 08:49:33.684] >> #
-[2021-06-08 08:49:33.684] >> # Example tablet definition:
-[2021-06-08 08:49:33.684] >> #   Tablet 0x056a 0x00dd 0x0D 0x01
-[2021-06-08 08:49:33.685] >> #
-[2021-06-08 08:49:33.685] >> # VID: 0x056a
-[2021-06-08 08:49:33.685] >> # PID: 0x00dd
-[2021-06-08 08:49:33.685] >> # HID Usage Page: 0x0D
-[2021-06-08 08:49:33.685] >> # HID Usage: 0x01
-[2021-06-08 08:49:33.685] >> #
-[2021-06-08 08:49:33.685] >> #
-[2021-06-08 08:49:33.685] >> # Wacom CTL-470 (Wacom drivers installed)
-[2021-06-08 08:49:33.685] >> #
-[2021-06-08 08:49:33.685] >> HIDTablet 0x056a 0x00dd 0xFF00 0x000A
-[2021-06-08 08:49:33.686] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x00DD UsagePage=0xFF00 Usage=0x000A Exclusive=False
-[2021-06-08 08:49:33.686] >> Name "Wacom CTL-470 (Wacom drivers installed)"
-[2021-06-08 08:49:33.686] >> ReportId 0x02
-[2021-06-08 08:49:33.686] >> ReportLength 11
-[2021-06-08 08:49:33.686] >> DetectMask 0x40
-[2021-06-08 08:49:33.686] >> MaxX 14720
-[2021-06-08 08:49:33.686] >> MaxY 9200
-[2021-06-08 08:49:33.686] >> MaxPressure 1023
-[2021-06-08 08:49:33.686] >> Width 147.2
-[2021-06-08 08:49:33.686] >> Height 92.0
-[2021-06-08 08:49:33.686] >> TabletFormat WacomDrivers
-[2021-06-08 08:49:33.686] >> #
-[2021-06-08 08:49:33.686] >> # Wacom CTL-470 
-[2021-06-08 08:49:33.687] >> #
-[2021-06-08 08:49:33.687] >> HIDTablet 0x056a 0x00dd 0x0D 0x01
-[2021-06-08 08:49:33.688] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x00DD UsagePage=0x000D Usage=0x0001 Exclusive=False
-[2021-06-08 08:49:33.688] >> Name "Wacom CTL-470"
-[2021-06-08 08:49:33.688] >> ReportId 0x02
-[2021-06-08 08:49:33.688] >> ReportLength 10
-[2021-06-08 08:49:33.689] >> DetectMask 0x40
-[2021-06-08 08:49:33.689] >> MaxX 14720
-[2021-06-08 08:49:33.689] >> MaxY 9200
-[2021-06-08 08:49:33.689] >> MaxPressure 1023
-[2021-06-08 08:49:33.689] >> Width 147.2
-[2021-06-08 08:49:33.689] >> Height 92.0
-[2021-06-08 08:49:33.689] >> InitFeature 0x02 0x02
-[2021-06-08 08:49:33.689] >> #
-[2021-06-08 08:49:33.689] >> # Wacom CTH-470 (Wacom drivers installed)
-[2021-06-08 08:49:33.689] >> #
-[2021-06-08 08:49:33.690] >> HIDTablet 0x056a 0x00de 0xFF00 0x000A
-[2021-06-08 08:49:33.690] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x00DE UsagePage=0xFF00 Usage=0x000A Exclusive=False
-[2021-06-08 08:49:33.691] >> Name "Wacom CTH-470 (Wacom drivers installed)"
-[2021-06-08 08:49:33.691] >> ReportId 0x02
-[2021-06-08 08:49:33.691] >> ReportLength 11
-[2021-06-08 08:49:33.691] >> DetectMask 0x40
-[2021-06-08 08:49:33.691] >> MaxX 14720
-[2021-06-08 08:49:33.691] >> MaxY 9200
-[2021-06-08 08:49:33.691] >> MaxPressure 1023
-[2021-06-08 08:49:33.691] >> Width 147.2
-[2021-06-08 08:49:33.691] >> Height 92.0
-[2021-06-08 08:49:33.692] >> TabletFormat WacomDrivers
-[2021-06-08 08:49:33.692] >> #
-[2021-06-08 08:49:33.692] >> # Wacom CTH-470
-[2021-06-08 08:49:33.692] >> #
-[2021-06-08 08:49:33.692] >> HIDTablet 0x056a 0x00de 0x0D 0x01
-[2021-06-08 08:49:33.693] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x00DE UsagePage=0x000D Usage=0x0001 Exclusive=False
-[2021-06-08 08:49:33.693] >> Name "Wacom CTH-470"
-[2021-06-08 08:49:33.693] >> ReportId 0x02
-[2021-06-08 08:49:33.693] >> ReportLength 10
-[2021-06-08 08:49:33.693] >> DetectMask 0x40
-[2021-06-08 08:49:33.693] >> MaxX 14720
-[2021-06-08 08:49:33.693] >> MaxY 9200
-[2021-06-08 08:49:33.693] >> MaxPressure 1023
-[2021-06-08 08:49:33.694] >> Width 147.2
-[2021-06-08 08:49:33.694] >> Height 92.0
-[2021-06-08 08:49:33.694] >> InitFeature 0x02 0x02
-[2021-06-08 08:49:33.694] >> #
-[2021-06-08 08:49:33.694] >> # Wacom CTH-670 (Wacom drivers installed)
-[2021-06-08 08:49:33.694] >> #
-[2021-06-08 08:49:33.694] >> HIDTablet 0x056a 0x00df 0xFF00 0x000A
-[2021-06-08 08:49:33.695] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x00DF UsagePage=0xFF00 Usage=0x000A Exclusive=False
-[2021-06-08 08:49:33.695] >> Name "Wacom CTH-670 (Wacom drivers installed)"
-[2021-06-08 08:49:33.695] >> ReportId 0x02
-[2021-06-08 08:49:33.695] >> ReportLength 11
-[2021-06-08 08:49:33.695] >> DetectMask 0x40
-[2021-06-08 08:49:33.695] >> MaxX 21648
-[2021-06-08 08:49:33.695] >> MaxY 13700
-[2021-06-08 08:49:33.696] >> MaxPressure 1023
-[2021-06-08 08:49:33.696] >> Width 216.48
-[2021-06-08 08:49:33.696] >> Height 137.0
-[2021-06-08 08:49:33.696] >> TabletFormat WacomDrivers
-[2021-06-08 08:49:33.696] >> #
-[2021-06-08 08:49:33.696] >> # Wacom CTH-670
-[2021-06-08 08:49:33.696] >> #
-[2021-06-08 08:49:33.696] >> HIDTablet 0x056a 0x00df 0x0D 0x01
-[2021-06-08 08:49:33.697] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x00DF UsagePage=0x000D Usage=0x0001 Exclusive=False
-[2021-06-08 08:49:33.697] >> Name "Wacom CTH-670"
-[2021-06-08 08:49:33.697] >> ReportId 0x02
-[2021-06-08 08:49:33.697] >> ReportLength 10
-[2021-06-08 08:49:33.697] >> DetectMask 0x40
-[2021-06-08 08:49:33.697] >> MaxX 21648
-[2021-06-08 08:49:33.698] >> MaxY 13700
-[2021-06-08 08:49:33.698] >> MaxPressure 1023
-[2021-06-08 08:49:33.698] >> Width 216.48
-[2021-06-08 08:49:33.698] >> Height 137.0
-[2021-06-08 08:49:33.698] >> InitFeature 0x02 0x02
-[2021-06-08 08:49:33.698] >> #
-[2021-06-08 08:49:33.698] >> # Wacom CTL-471 (Wacom drivers installed)
-[2021-06-08 08:49:33.698] >> #
-[2021-06-08 08:49:33.698] >> HIDTablet 0x056a 0x0300 0xFF00 0x000A
-[2021-06-08 08:49:33.699] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x0300 UsagePage=0xFF00 Usage=0x000A Exclusive=False
-[2021-06-08 08:49:33.699] >> Name "Wacom CTL-471 (Wacom drivers installed)"
-[2021-06-08 08:49:33.699] >> GetString 1 20
-[2021-06-08 08:49:33.699] >> ReportLength 11
-[2021-06-08 08:49:33.699] >> DetectMask 0x40
-[2021-06-08 08:49:33.700] >> MaxX 15200
-[2021-06-08 08:49:33.700] >> MaxY 9500
-[2021-06-08 08:49:33.700] >> MaxPressure 1023
-[2021-06-08 08:49:33.700] >> Width 152.00
-[2021-06-08 08:49:33.700] >> Height 95.00
-[2021-06-08 08:49:33.700] >> TabletFormat WacomDrivers
-[2021-06-08 08:49:33.700] >> #
-[2021-06-08 08:49:33.700] >> # Wacom CTL-471
-[2021-06-08 08:49:33.700] >> #
-[2021-06-08 08:49:33.700] >> HIDTablet 0x056a 0x0300 0xFF0D 0x01
-[2021-06-08 08:49:33.701] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x0300 UsagePage=0xFF0D Usage=0x0001 Exclusive=False
-[2021-06-08 08:49:33.701] >> Name "Wacom CTL-471"
-[2021-06-08 08:49:33.701] >> ReportLength 10
-[2021-06-08 08:49:33.701] >> DetectMask 0x40
-[2021-06-08 08:49:33.702] >> MaxX 15200
-[2021-06-08 08:49:33.702] >> MaxY 9500
-[2021-06-08 08:49:33.702] >> MaxPressure 1023
-[2021-06-08 08:49:33.702] >> Width 152.00
-[2021-06-08 08:49:33.702] >> Height 95.00
-[2021-06-08 08:49:33.702] >> InitFeature 0x02 0x02
-[2021-06-08 08:49:33.702] >> #
-[2021-06-08 08:49:33.702] >> # Wacom CTL-671 (Wacom drivers installed)
-[2021-06-08 08:49:33.702] >> #
-[2021-06-08 08:49:33.702] >> HIDTablet 0x056a 0x0301 0xFF00 0x000A
-[2021-06-08 08:49:33.703] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x0301 UsagePage=0xFF00 Usage=0x000A Exclusive=False
-[2021-06-08 08:49:33.703] >> Name "Wacom CTL-671 (Wacom drivers installed)"
-[2021-06-08 08:49:33.703] >> ReportLength 11
-[2021-06-08 08:49:33.703] >> DetectMask 0x40
-[2021-06-08 08:49:33.704] >> MaxX 21648
-[2021-06-08 08:49:33.704] >> MaxY 13530
-[2021-06-08 08:49:33.704] >> MaxPressure 1023
-[2021-06-08 08:49:33.705] >> Width 216.48
-[2021-06-08 08:49:33.705] >> Height 135.30
-[2021-06-08 08:49:33.705] >> TabletFormat WacomDrivers
-[2021-06-08 08:49:33.705] >> #
-[2021-06-08 08:49:33.705] >> # Wacom CTL-671
-[2021-06-08 08:49:33.706] >> #
-[2021-06-08 08:49:33.706] >> HIDTablet 0x056a 0x0301 0xFF0D 0x01
-[2021-06-08 08:49:33.707] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x0301 UsagePage=0xFF0D Usage=0x0001 Exclusive=False
-[2021-06-08 08:49:33.707] >> Name "Wacom CTL-671"
-[2021-06-08 08:49:33.707] >> ReportLength 10
-[2021-06-08 08:49:33.707] >> DetectMask 0x40
-[2021-06-08 08:49:33.707] >> MaxX 21648
-[2021-06-08 08:49:33.707] >> MaxY 13530
-[2021-06-08 08:49:33.707] >> MaxPressure 1023
-[2021-06-08 08:49:33.707] >> Width 216.48
-[2021-06-08 08:49:33.708] >> Height 135.30
-[2021-06-08 08:49:33.708] >> InitFeature 0x02 0x02
-[2021-06-08 08:49:33.708] >> #
-[2021-06-08 08:49:33.708] >> # Wacom CTL-472 (Wacom drivers installed)
-[2021-06-08 08:49:33.708] >> #
-[2021-06-08 08:49:33.708] >> HIDTablet 0x056a 0x037a 0xFF00 0x000A
-[2021-06-08 08:49:33.709] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x037A UsagePage=0xFF00 Usage=0x000A Exclusive=False
-[2021-06-08 08:49:33.709] >> Name "Wacom CTL-472 (Wacom drivers installed)"
-[2021-06-08 08:49:33.709] >> ReportId 0x02
-[2021-06-08 08:49:33.709] >> ReportLength 11
-[2021-06-08 08:49:33.709] >> DetectMask 0x40
-[2021-06-08 08:49:33.709] >> MaxX 15200
-[2021-06-08 08:49:33.709] >> MaxY 9500
-[2021-06-08 08:49:33.709] >> MaxPressure 2047
-[2021-06-08 08:49:33.710] >> Width 152.0
-[2021-06-08 08:49:33.710] >> Height 95.0
-[2021-06-08 08:49:33.710] >> TabletFormat WacomDrivers
-[2021-06-08 08:49:33.710] >> #
-[2021-06-08 08:49:33.710] >> # Wacom CTL-472
-[2021-06-08 08:49:33.710] >> #
-[2021-06-08 08:49:33.710] >> HIDTablet 0x056a 0x037a 0xFF0D 0x0001
-[2021-06-08 08:49:33.711] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x037A UsagePage=0xFF0D Usage=0x0001 Exclusive=False
-[2021-06-08 08:49:33.711] >> Name "Wacom CTL-472"
-[2021-06-08 08:49:33.711] >> ReportId 0x02
-[2021-06-08 08:49:33.711] >> ReportLength 10
-[2021-06-08 08:49:33.711] >> DetectMask 0x40
-[2021-06-08 08:49:33.711] >> MaxX 15200
-[2021-06-08 08:49:33.711] >> MaxY 9500
-[2021-06-08 08:49:33.712] >> MaxPressure 2047
-[2021-06-08 08:49:33.712] >> Width 152.0
-[2021-06-08 08:49:33.712] >> Height 95.0
-[2021-06-08 08:49:33.712] >> InitFeature 0x02 0x02
-[2021-06-08 08:49:33.712] >> #
-[2021-06-08 08:49:33.712] >> # Wacom CTL-672 (Wacom drivers installed)
-[2021-06-08 08:49:33.712] >> #
-[2021-06-08 08:49:33.712] >> HIDTablet 0x056a 0x037b 0xFF00 0x000A
-[2021-06-08 08:49:33.713] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x037B UsagePage=0xFF00 Usage=0x000A Exclusive=False
-[2021-06-08 08:49:33.713] >> Name "Wacom CTL-672 (Wacom drivers installed)"
-[2021-06-08 08:49:33.713] >> ReportId 0x02
-[2021-06-08 08:49:33.713] >> ReportLength 10
-[2021-06-08 08:49:33.713] >> DetectMask 0x40
-[2021-06-08 08:49:33.713] >> MaxX 21600
-[2021-06-08 08:49:33.713] >> MaxY 13500
-[2021-06-08 08:49:33.714] >> MaxPressure 2047
-[2021-06-08 08:49:33.714] >> Width 216.00
-[2021-06-08 08:49:33.714] >> Height 135.00
-[2021-06-08 08:49:33.714] >> TabletFormat WacomDrivers
-[2021-06-08 08:49:33.714] >> #
-[2021-06-08 08:49:33.714] >> # Wacom CTL-672
-[2021-06-08 08:49:33.714] >> #
-[2021-06-08 08:49:33.714] >> HIDTablet 0x056a 0x037b 0xFF0D 0x0001
-[2021-06-08 08:49:33.715] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x037B UsagePage=0xFF0D Usage=0x0001 Exclusive=False
-[2021-06-08 08:49:33.715] >> Name "Wacom CTL-672"
-[2021-06-08 08:49:33.715] >> ReportId 0x02
-[2021-06-08 08:49:33.715] >> ReportLength 10
-[2021-06-08 08:49:33.715] >> DetectMask 0x40
-[2021-06-08 08:49:33.715] >> MaxX 21600
-[2021-06-08 08:49:33.716] >> MaxY 13500
-[2021-06-08 08:49:33.716] >> MaxPressure 2047
-[2021-06-08 08:49:33.716] >> Width 216.00
-[2021-06-08 08:49:33.716] >> Height 135.00
-[2021-06-08 08:49:33.716] >> InitFeature 0x02 0x02
-[2021-06-08 08:49:33.716] >> #
-[2021-06-08 08:49:33.716] >> # Wacom CTL-480 (Wacom drivers installed)
-[2021-06-08 08:49:33.716] >> #
-[2021-06-08 08:49:33.716] >> HIDTablet 0x056a 0x030e 0xFF00 0x000A
-[2021-06-08 08:49:33.717] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x030E UsagePage=0xFF00 Usage=0x000A Exclusive=False
-[2021-06-08 08:49:33.717] >> Name "Wacom CTL-480 (Wacom drivers installed)"
-[2021-06-08 08:49:33.717] >> ReportId 0x02
-[2021-06-08 08:49:33.717] >> ReportLength 11
-[2021-06-08 08:49:33.717] >> DetectMask 0x40
-[2021-06-08 08:49:33.718] >> MaxX 15200
-[2021-06-08 08:49:33.718] >> MaxY 9500
-[2021-06-08 08:49:33.718] >> MaxPressure 1023
-[2021-06-08 08:49:33.718] >> Width 152.0
-[2021-06-08 08:49:33.718] >> Height 95.0
-[2021-06-08 08:49:33.718] >> TabletFormat WacomDrivers
-[2021-06-08 08:49:33.718] >> #
-[2021-06-08 08:49:33.718] >> # Wacom CTL-480
-[2021-06-08 08:49:33.718] >> #
-[2021-06-08 08:49:33.718] >> HIDTablet 0x056a 0x030e 0xFF0D 0x0001
-[2021-06-08 08:49:33.719] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x030E UsagePage=0xFF0D Usage=0x0001 Exclusive=False
-[2021-06-08 08:49:33.719] >> Name "Wacom CTL-480"
-[2021-06-08 08:49:33.719] >> ReportId 0x02
-[2021-06-08 08:49:33.719] >> ReportLength 10
-[2021-06-08 08:49:33.720] >> DetectMask 0x40
-[2021-06-08 08:49:33.720] >> MaxX 15200
-[2021-06-08 08:49:33.720] >> MaxY 9500
-[2021-06-08 08:49:33.720] >> MaxPressure 1023
-[2021-06-08 08:49:33.720] >> Width 152.0
-[2021-06-08 08:49:33.721] >> Height 95.0
-[2021-06-08 08:49:33.721] >> InitFeature 0x02 0x02
-[2021-06-08 08:49:33.721] >> #
-[2021-06-08 08:49:33.721] >> # Wacom CTH-480 (Wacom drivers installed)
-[2021-06-08 08:49:33.721] >> #
-[2021-06-08 08:49:33.721] >> HIDTablet 0x056a 0x0302 0xFF00 0x000A
-[2021-06-08 08:49:33.722] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x0302 UsagePage=0xFF00 Usage=0x000A Exclusive=False
-[2021-06-08 08:49:33.722] >> Name "Wacom CTH-480 (Wacom drivers installed)"
-[2021-06-08 08:49:33.722] >> ReportId 0x02
-[2021-06-08 08:49:33.722] >> ReportLength 11
-[2021-06-08 08:49:33.722] >> DetectMask 0x40
-[2021-06-08 08:49:33.722] >> MaxX 15200
-[2021-06-08 08:49:33.722] >> MaxY 9500
-[2021-06-08 08:49:33.722] >> MaxPressure 1023
-[2021-06-08 08:49:33.723] >> Width 152.0
-[2021-06-08 08:49:33.723] >> Height 95.0
-[2021-06-08 08:49:33.723] >> TabletFormat WacomDrivers
-[2021-06-08 08:49:33.723] >> #
-[2021-06-08 08:49:33.723] >> # Wacom CTH-480
-[2021-06-08 08:49:33.723] >> #
-[2021-06-08 08:49:33.723] >> HIDTablet 0x056a 0x0302 0xFF0D 0x0001
-[2021-06-08 08:49:33.724] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x0302 UsagePage=0xFF0D Usage=0x0001 Exclusive=False
-[2021-06-08 08:49:33.724] >> Name "Wacom CTH-480"
-[2021-06-08 08:49:33.724] >> ReportId 0x02
-[2021-06-08 08:49:33.724] >> ReportLength 10
-[2021-06-08 08:49:33.724] >> DetectMask 0x40
-[2021-06-08 08:49:33.724] >> MaxX 15200
-[2021-06-08 08:49:33.724] >> MaxY 9500
-[2021-06-08 08:49:33.724] >> MaxPressure 1023
-[2021-06-08 08:49:33.725] >> Width 152.0
-[2021-06-08 08:49:33.725] >> Height 95.0
-[2021-06-08 08:49:33.725] >> InitFeature 0x02 0x02
-[2021-06-08 08:49:33.725] >> AuxHID 0x056a 0x0302 0xFF00 0x0080
-[2021-06-08 08:49:33.725] >> AuxReportId 0x02
-[2021-06-08 08:49:33.725] >> AuxReportLength 64
-[2021-06-08 08:49:33.725] >> AuxDetectMask 0x80
-[2021-06-08 08:49:33.725] >> AuxIgnoreMask 0x81
-[2021-06-08 08:49:33.725] >> AuxCustomData ReportId Source=0
-[2021-06-08 08:49:33.725] >> AuxCustomData ButtonsLow Source=3 SourceMask=0x0F
-[2021-06-08 08:49:33.725] >> AuxCustomData Detect Source=2
-[2021-06-08 08:49:33.726] >> AuxButtonCount 4
-[2021-06-08 08:49:33.726] >> #
-[2021-06-08 08:49:33.726] >> # Wacom CTL-680 (Wacom drivers installed)
-[2021-06-08 08:49:33.726] >> #
-[2021-06-08 08:49:33.726] >> HIDTablet 0x056a 0x0323 0xFF00 0x000A
-[2021-06-08 08:49:33.727] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x0323 UsagePage=0xFF00 Usage=0x000A Exclusive=False
-[2021-06-08 08:49:33.727] >> Name "Wacom CTL-680"
-[2021-06-08 08:49:33.727] >> ReportId 0x02
-[2021-06-08 08:49:33.727] >> ReportLength 11
-[2021-06-08 08:49:33.727] >> DetectMask 0x40
-[2021-06-08 08:49:33.727] >> MaxX 21600
-[2021-06-08 08:49:33.727] >> MaxY 13500
-[2021-06-08 08:49:33.727] >> MaxPressure 1023
-[2021-06-08 08:49:33.728] >> Width 216.0
-[2021-06-08 08:49:33.728] >> Height 135.0
-[2021-06-08 08:49:33.728] >> TabletFormat WacomDrivers
-[2021-06-08 08:49:33.728] >> #
-[2021-06-08 08:49:33.728] >> # Wacom CTL-680
-[2021-06-08 08:49:33.728] >> #
-[2021-06-08 08:49:33.728] >> HIDTablet 0x056a 0x0323 0xFF0D 0x0001
-[2021-06-08 08:49:33.729] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x0323 UsagePage=0xFF0D Usage=0x0001 Exclusive=False
-[2021-06-08 08:49:33.729] >> Name "Wacom CTL-680"
-[2021-06-08 08:49:33.729] >> ReportId 0x02
-[2021-06-08 08:49:33.729] >> ReportLength 10
-[2021-06-08 08:49:33.729] >> DetectMask 0x40
-[2021-06-08 08:49:33.729] >> MaxX 21600
-[2021-06-08 08:49:33.729] >> MaxY 13500
-[2021-06-08 08:49:33.729] >> MaxPressure 1023
-[2021-06-08 08:49:33.729] >> Width 216.0
-[2021-06-08 08:49:33.730] >> Height 135.0
-[2021-06-08 08:49:33.730] >> InitFeature 0x02 0x02
-[2021-06-08 08:49:33.730] >> #
-[2021-06-08 08:49:33.730] >> # Wacom CTH-680 (Wacom drivers installed)
-[2021-06-08 08:49:33.730] >> #
-[2021-06-08 08:49:33.730] >> HIDTablet 0x056a 0x0303 0xFF00 0x000A
-[2021-06-08 08:49:33.731] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x0303 UsagePage=0xFF00 Usage=0x000A Exclusive=False
-[2021-06-08 08:49:33.731] >> Name "Wacom CTH-680 (Wacom drivers installed)"
-[2021-06-08 08:49:33.731] >> ReportId 0x02
-[2021-06-08 08:49:33.731] >> ReportLength 11
-[2021-06-08 08:49:33.731] >> DetectMask 0x40
-[2021-06-08 08:49:33.731] >> MaxX 21600
-[2021-06-08 08:49:33.731] >> MaxY 13500
-[2021-06-08 08:49:33.731] >> MaxPressure 1023
-[2021-06-08 08:49:33.731] >> Width 216.0
-[2021-06-08 08:49:33.731] >> Height 135.0
-[2021-06-08 08:49:33.731] >> TabletFormat WacomDrivers
-[2021-06-08 08:49:33.732] >> #
-[2021-06-08 08:49:33.732] >> # Wacom CTH-680
-[2021-06-08 08:49:33.732] >> #
-[2021-06-08 08:49:33.732] >> HIDTablet 0x056a 0x0303 0xFF0D 0x0001
-[2021-06-08 08:49:33.733] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x0303 UsagePage=0xFF0D Usage=0x0001 Exclusive=False
-[2021-06-08 08:49:33.733] >> Name "Wacom CTH-680"
-[2021-06-08 08:49:33.733] >> ReportId 0x02
-[2021-06-08 08:49:33.733] >> ReportLength 10
-[2021-06-08 08:49:33.733] >> DetectMask 0x40
-[2021-06-08 08:49:33.733] >> MaxX 21600
-[2021-06-08 08:49:33.733] >> MaxY 13500
-[2021-06-08 08:49:33.733] >> MaxPressure 1023
-[2021-06-08 08:49:33.733] >> Width 216.0
-[2021-06-08 08:49:33.733] >> Height 135.0
-[2021-06-08 08:49:33.733] >> InitFeature 0x02 0x02
-[2021-06-08 08:49:33.733] >> #
-[2021-06-08 08:49:33.733] >> # Wacom CTL-490 (Wacom drivers installed)
-[2021-06-08 08:49:33.734] >> #
-[2021-06-08 08:49:33.734] >> HIDTablet 0x056a 0x033b 0xFF00 0x000A
-[2021-06-08 08:49:33.734] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x033B UsagePage=0xFF00 Usage=0x000A Exclusive=False
-[2021-06-08 08:49:33.735] >> Name "Wacom CTL-490 (Wacom drivers installed)"
-[2021-06-08 08:49:33.735] >> ReportId 0x10
-[2021-06-08 08:49:33.735] >> ReportLength 11
-[2021-06-08 08:49:33.735] >> DetectMask 0xA0
-[2021-06-08 08:49:33.735] >> MaxX 15200
-[2021-06-08 08:49:33.735] >> MaxY 9500
-[2021-06-08 08:49:33.735] >> MaxPressure 2047
-[2021-06-08 08:49:33.735] >> KeepTipDown 2
-[2021-06-08 08:49:33.735] >> Width 152.0
-[2021-06-08 08:49:33.735] >> Height 95.0
-[2021-06-08 08:49:33.735] >> TabletFormat WacomIntuosV2
-[2021-06-08 08:49:33.736] >> #
-[2021-06-08 08:49:33.736] >> # Wacom CTL-490
-[2021-06-08 08:49:33.736] >> #
-[2021-06-08 08:49:33.736] >> HIDTablet 0x056a 0x033b 0xFF0D 0x0001
-[2021-06-08 08:49:33.737] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x033B UsagePage=0xFF0D Usage=0x0001 Exclusive=False
-[2021-06-08 08:49:33.737] >> Name "Wacom CTL-490"
-[2021-06-08 08:49:33.737] >> ReportId 0x10
-[2021-06-08 08:49:33.738] >> ReportLength 10
-[2021-06-08 08:49:33.738] >> DetectMask 0xA0
-[2021-06-08 08:49:33.738] >> MaxX 15200
-[2021-06-08 08:49:33.738] >> MaxY 9500
-[2021-06-08 08:49:33.738] >> MaxPressure 2047
-[2021-06-08 08:49:33.738] >> KeepTipDown 2
-[2021-06-08 08:49:33.738] >> Width 152.0
-[2021-06-08 08:49:33.738] >> Height 95.0
-[2021-06-08 08:49:33.738] >> InitFeature 0x02 0x02
-[2021-06-08 08:49:33.738] >> TabletFormat WacomIntuosV2
-[2021-06-08 08:49:33.738] >> AuxHID 0x056a 0x033b 0xFF00 0x0080
-[2021-06-08 08:49:33.738] >> AuxReportId 0x02
-[2021-06-08 08:49:33.738] >> AuxReportLength 64
-[2021-06-08 08:49:33.739] >> AuxDetectMask 0x80
-[2021-06-08 08:49:33.739] >> AuxIgnoreMask 0x81
-[2021-06-08 08:49:33.739] >> AuxCustomData ReportId Source=0
-[2021-06-08 08:49:33.739] >> AuxCustomData ButtonsLow Source=3 SourceMask=0x0F
-[2021-06-08 08:49:33.739] >> AuxCustomData Detect Source=2
-[2021-06-08 08:49:33.739] >> AuxButtonCount 4
-[2021-06-08 08:49:33.739] >> #
-[2021-06-08 08:49:33.739] >> # Wacom CTH-490 (Wacom drivers installed)
-[2021-06-08 08:49:33.739] >> #
-[2021-06-08 08:49:33.739] >> HIDTablet 0x056a 0x033c 0xFF00 0x000A
-[2021-06-08 08:49:33.740] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x033C UsagePage=0xFF00 Usage=0x000A Exclusive=False
-[2021-06-08 08:49:33.740] >> Name "Wacom CTH-490 (Wacom drivers installed)"
-[2021-06-08 08:49:33.740] >> ReportId 0x10
-[2021-06-08 08:49:33.740] >> ReportLength 11
-[2021-06-08 08:49:33.740] >> DetectMask 0xA0
-[2021-06-08 08:49:33.740] >> MaxX 15200
-[2021-06-08 08:49:33.741] >> MaxY 9500
-[2021-06-08 08:49:33.741] >> MaxPressure 2047
-[2021-06-08 08:49:33.741] >> KeepTipDown 2
-[2021-06-08 08:49:33.741] >> Width 152.0
-[2021-06-08 08:49:33.741] >> Height 95.0
-[2021-06-08 08:49:33.741] >> TabletFormat WacomIntuosV2
-[2021-06-08 08:49:33.741] >> #
-[2021-06-08 08:49:33.741] >> # Wacom CTH-490
-[2021-06-08 08:49:33.741] >> #
-[2021-06-08 08:49:33.741] >> HIDTablet 0x056a 0x033c 0xFF0D 0x0001
-[2021-06-08 08:49:33.742] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x033C UsagePage=0xFF0D Usage=0x0001 Exclusive=False
-[2021-06-08 08:49:33.742] >> Name "Wacom CTH-490"
-[2021-06-08 08:49:33.742] >> ReportId 0x10
-[2021-06-08 08:49:33.742] >> ReportLength 10
-[2021-06-08 08:49:33.742] >> DetectMask 0xA0
-[2021-06-08 08:49:33.742] >> MaxX 15200
-[2021-06-08 08:49:33.742] >> MaxY 9500
-[2021-06-08 08:49:33.742] >> MaxPressure 2047
-[2021-06-08 08:49:33.743] >> KeepTipDown 2
-[2021-06-08 08:49:33.743] >> Width 152.0
-[2021-06-08 08:49:33.743] >> Height 95.0
-[2021-06-08 08:49:33.743] >> InitFeature 0x02 0x02
-[2021-06-08 08:49:33.743] >> TabletFormat WacomIntuosV2
-[2021-06-08 08:49:33.743] >> #
-[2021-06-08 08:49:33.743] >> # Wacom CTL-690 (Wacom drivers installed)
-[2021-06-08 08:49:33.743] >> #
-[2021-06-08 08:49:33.743] >> HIDTablet 0x056A 0x033D 0xFF00 0x000A
-[2021-06-08 08:49:33.744] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x033D UsagePage=0xFF00 Usage=0x000A Exclusive=False
-[2021-06-08 08:49:33.744] >> Name "Wacom CTL-690 (Wacom drivers installed)"
-[2021-06-08 08:49:33.744] >> ReportId 0x10
-[2021-06-08 08:49:33.744] >> ReportLength 11
-[2021-06-08 08:49:33.744] >> DetectMask 0xA0
-[2021-06-08 08:49:33.744] >> MaxX 21600
-[2021-06-08 08:49:33.744] >> MaxY 13500
-[2021-06-08 08:49:33.745] >> MaxPressure 2047
-[2021-06-08 08:49:33.745] >> Width 216.000
-[2021-06-08 08:49:33.745] >> Height 135.000
-[2021-06-08 08:49:33.745] >> KeepTipDown 2
-[2021-06-08 08:49:33.745] >> TabletFormat WacomIntuosV2
-[2021-06-08 08:49:33.745] >> #
-[2021-06-08 08:49:33.745] >> # Wacom CTL-690
-[2021-06-08 08:49:33.745] >> #
-[2021-06-08 08:49:33.745] >> HIDTablet 0x056A 0x033D 0xFF0D 0x0001
-[2021-06-08 08:49:33.746] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x033D UsagePage=0xFF0D Usage=0x0001 Exclusive=False
-[2021-06-08 08:49:33.746] >> Name "Wacom CTL-690"
-[2021-06-08 08:49:33.746] >> ReportId 0x10
-[2021-06-08 08:49:33.746] >> ReportLength 10
-[2021-06-08 08:49:33.746] >> DetectMask 0xA0
-[2021-06-08 08:49:33.747] >> MaxX 21600
-[2021-06-08 08:49:33.747] >> MaxY 13500
-[2021-06-08 08:49:33.747] >> MaxPressure 2047
-[2021-06-08 08:49:33.747] >> Width 216.000
-[2021-06-08 08:49:33.747] >> Height 135.000
-[2021-06-08 08:49:33.747] >> KeepTipDown 2
-[2021-06-08 08:49:33.747] >> InitFeature 0x02 0x02
-[2021-06-08 08:49:33.747] >> TabletFormat WacomIntuosV2
-[2021-06-08 08:49:33.747] >> #
-[2021-06-08 08:49:33.747] >> # Wacom CTH-690 (Wacom drivers installed)
-[2021-06-08 08:49:33.747] >> #
-[2021-06-08 08:49:33.747] >> HIDTablet 0x056A 0x033E 0xFF00 0x000A
-[2021-06-08 08:49:33.748] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x033E UsagePage=0xFF00 Usage=0x000A Exclusive=False
-[2021-06-08 08:49:33.748] >> Name "Wacom CTH-690"
-[2021-06-08 08:49:33.748] >> ReportId 0x10
-[2021-06-08 08:49:33.748] >> ReportLength 11
-[2021-06-08 08:49:33.748] >> DetectMask 0xA0
-[2021-06-08 08:49:33.748] >> MaxX 21600
-[2021-06-08 08:49:33.748] >> MaxY 13500
-[2021-06-08 08:49:33.748] >> MaxPressure 2047
-[2021-06-08 08:49:33.749] >> Width 216.000
-[2021-06-08 08:49:33.749] >> Height 135.000
-[2021-06-08 08:49:33.749] >> KeepTipDown 2
-[2021-06-08 08:49:33.749] >> TabletFormat WacomIntuosV2
-[2021-06-08 08:49:33.749] >> #
-[2021-06-08 08:49:33.749] >> # Wacom CTH-690
-[2021-06-08 08:49:33.749] >> #
-[2021-06-08 08:49:33.749] >> HIDTablet 0x056A 0x033E 0xFF0D 0x0001
-[2021-06-08 08:49:33.750] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x033E UsagePage=0xFF0D Usage=0x0001 Exclusive=False
-[2021-06-08 08:49:33.750] >> Name "Wacom CTH-690"
-[2021-06-08 08:49:33.750] >> ReportId 0x10
-[2021-06-08 08:49:33.750] >> ReportLength 10
-[2021-06-08 08:49:33.750] >> DetectMask 0xA0
-[2021-06-08 08:49:33.750] >> MaxX 21600
-[2021-06-08 08:49:33.751] >> MaxY 13500
-[2021-06-08 08:49:33.751] >> MaxPressure 2047
-[2021-06-08 08:49:33.751] >> Width 216.000
-[2021-06-08 08:49:33.751] >> Height 135.000
-[2021-06-08 08:49:33.752] >> KeepTipDown 2
-[2021-06-08 08:49:33.752] >> InitFeature 0x02 0x02
-[2021-06-08 08:49:33.752] >> TabletFormat WacomIntuosV2
-[2021-06-08 08:49:33.752] >> #
-[2021-06-08 08:49:33.752] >> # Wacom CTL-4100 (Wacom drivers installed)
-[2021-06-08 08:49:33.752] >> #
-[2021-06-08 08:49:33.752] >> HIDTablet 0x056a 0x0376 0xFF00 0x000A
-[2021-06-08 08:49:33.753] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x0376 UsagePage=0xFF00 Usage=0x000A Exclusive=False
-[2021-06-08 08:49:33.753] >> HIDTablet 0x056a 0x0374 0xFF00 0x000A
-[2021-06-08 08:49:33.754] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x0374 UsagePage=0xFF00 Usage=0x000A Exclusive=False
-[2021-06-08 08:49:33.754] >> Name "Wacom CTL-4100 (Wacom drivers installed)"
-[2021-06-08 08:49:33.754] >> ReportId 0x10
-[2021-06-08 08:49:33.754] >> ReportLength 193
-[2021-06-08 08:49:33.754] >> DetectMask 0x20
-[2021-06-08 08:49:33.754] >> MaxX 15200
-[2021-06-08 08:49:33.754] >> MaxY 9500
-[2021-06-08 08:49:33.755] >> MaxPressure 4095
-[2021-06-08 08:49:33.755] >> Width 152.0
-[2021-06-08 08:49:33.755] >> Height 95.0
-[2021-06-08 08:49:33.755] >> TabletFormat WacomIntuosV3
-[2021-06-08 08:49:33.755] >> #
-[2021-06-08 08:49:33.755] >> # Wacom CTL-4100
-[2021-06-08 08:49:33.755] >> #
-[2021-06-08 08:49:33.755] >> HIDTablet 0x056a 0x0376 0xFF0D 0x0001
-[2021-06-08 08:49:33.756] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x0376 UsagePage=0xFF0D Usage=0x0001 Exclusive=False
-[2021-06-08 08:49:33.756] >> HIDTablet 0x056a 0x0374 0xFF0D 0x0001
-[2021-06-08 08:49:33.757] Tablet found! Manufacturer='Wacom Co.,Ltd.', Product='Intuos S', Serial='0CH00R2012893'
-[2021-06-08 08:49:33.757] >> Name "Wacom CTL-4100"
-[2021-06-08 08:49:33.757] Tablet name = 'Wacom CTL-4100'
-[2021-06-08 08:49:33.758] >> ReportId 0x10
-[2021-06-08 08:49:33.758] Tablet report id = 16
-[2021-06-08 08:49:33.758] >> ReportLength 192
-[2021-06-08 08:49:33.758] Tablet report length = 192
-[2021-06-08 08:49:33.758] >> DetectMask 0x20
-[2021-06-08 08:49:33.758] Tablet detect mask = 0x20
-[2021-06-08 08:49:33.758] >> MaxX 15200
-[2021-06-08 08:49:33.758] Tablet maximum X value = 15200
-[2021-06-08 08:49:33.758] >> MaxY 9500
-[2021-06-08 08:49:33.758] Tablet maximum Y value = 9500
-[2021-06-08 08:49:33.758] >> MaxPressure 4095
-[2021-06-08 08:49:33.759] Tablet maximum pressure value = 4095
-[2021-06-08 08:49:33.759] >> Width 152.0
-[2021-06-08 08:49:33.759] Tablet width = 152.00 mm
-[2021-06-08 08:49:33.759] >> Height 95.0
-[2021-06-08 08:49:33.759] Tablet height = 95.00 mm
-[2021-06-08 08:49:33.759] >> TabletFormat WacomIntuosV3
-[2021-06-08 08:49:33.759] Tablet format = 2
-[2021-06-08 08:49:33.759] >> AuxHID 0x056a 0x0376 0xFF0D 0x0001
-[2021-06-08 08:49:33.760] [ERROR] Can't open auxiliary HID 0x056A 0x0376 0xFF0D 0x0001
-[2021-06-08 08:49:33.760] >> AuxHID 0x056a 0x0374 0xFF0D 0x0001
-[2021-06-08 08:49:33.761] HID auxiliary device found!
-[2021-06-08 08:49:33.761] >> AuxReportId 0x11
-[2021-06-08 08:49:33.762] Tablet aux report id = 17
-[2021-06-08 08:49:33.762] >> AuxReportLength 192
-[2021-06-08 08:49:33.762] Tablet aux report length = 192
-[2021-06-08 08:49:33.762] >> AuxCustomData ReportId Source=0
-[2021-06-08 08:49:33.762] Custom data format: Target=0, TargetMask=0xFF, Source=0, SourceMask=0xFF, SourceShift=0
-[2021-06-08 08:49:33.762] >> AuxCustomData ButtonsLow Source=1 SourceMask=0x0F
-[2021-06-08 08:49:33.762] Custom data format: Target=1, TargetMask=0xFF, Source=1, SourceMask=0x0F, SourceShift=0
-[2021-06-08 08:49:33.762] >> AuxButtonCount 4
-[2021-06-08 08:49:33.762] Tablet aux button count = 4
-[2021-06-08 08:49:33.762] >> #
-[2021-06-08 08:49:33.762] >> # Wacom CTL-4100 Bluetooth
-[2021-06-08 08:49:33.763] >> #
-[2021-06-08 08:49:33.763] >> HIDTablet 0x056a 0x0377 0xFF0D 0x0001
-[2021-06-08 08:49:33.763] Tablet is already defined!
-[2021-06-08 08:49:33.763] / End of 'config\tablet.cfg'
-[2021-06-08 08:49:33.763] >> Include "config\wacom.cfg"
-[2021-06-08 08:49:33.763] \ Reading 'config\wacom.cfg'
-[2021-06-08 08:49:33.763] >> #
-[2021-06-08 08:49:33.763] >> # This file is automatically generated from these sources:
-[2021-06-08 08:49:33.763] >> #   https://github.com/linuxwacom/input-wacom/blob/master/3.7/wacom_wac.h
-[2021-06-08 08:49:33.763] >> #   https://github.com/linuxwacom/input-wacom/blob/master/3.7/wacom_wac.c
-[2021-06-08 08:49:33.763] >> #   https://github.com/linuxwacom/input-wacom/wiki/Device-IDs
-[2021-06-08 08:49:33.764] >> #
-[2021-06-08 08:49:33.764] >> # DO NOT EDIT THIS FILE!
-[2021-06-08 08:49:33.764] >> #   Make the configuration modifications to the tablet.cfg
-[2021-06-08 08:49:33.764] >> #   Tablet.cfg will overwrite the settings from this file, if the tablet is found.
-[2021-06-08 08:49:33.764] >> #
-[2021-06-08 08:49:33.764] >> # Wacom PTK-450
-[2021-06-08 08:49:33.764] >> HIDTablet 0x056A 0x0029 0xFF0D 0x0001
-[2021-06-08 08:49:33.764] Tablet is already defined!
-[2021-06-08 08:49:33.764] / End of 'config\wacom.cfg'
-[2021-06-08 08:49:33.764] >> Include "config\user.cfg"
-[2021-06-08 08:49:33.765] \ Reading 'config\user.cfg'
-[2021-06-08 08:49:33.765] / End of 'config\user.cfg'
-[2021-06-08 08:49:33.765] / End of 'config\init.cfg'
-[2021-06-08 08:49:33.765] >> Include "config\usersettings.cfg"
-[2021-06-08 08:49:33.765] \ Reading 'config\usersettings.cfg'
-[2021-06-08 08:49:33.765] >> DesktopSize 2400 1350
-[2021-06-08 08:49:33.765] Desktop size = (2400.00 px x 1350.00 px)
-[2021-06-08 08:49:33.765] >> ScreenArea 2400 1350 0 0
-[2021-06-08 08:49:33.765] Screen area = (w=2400.00, h=1350.00, x=0.00, y=0.00)
-[2021-06-08 08:49:33.765] >> TabletArea 152 85.5 76 42.75
-[2021-06-08 08:49:33.765] Tablet area: (152.00 mm x 85.50 mm X+76.00 mm Y+42.75 mm)
-[2021-06-08 08:49:33.766] >> Rotate 0
-[2021-06-08 08:49:33.766] Rotation matrix = [1.000000,-0.000000,0.000000,1.000000]
-[2021-06-08 08:49:33.766] >> OutputMode Absolute
-[2021-06-08 08:49:33.766] Output Mode = Absolute
-[2021-06-08 08:49:33.766] >> ClearButtonMap
-[2021-06-08 08:49:33.766] Pen button map cleared!
-[2021-06-08 08:49:33.766] >> ButtonMap 1 "MOUSE1"
-[2021-06-08 08:49:33.766] Pen button 1 mapped to 'MOUSE1'
-[2021-06-08 08:49:33.766] >> ButtonMap 2 "MOUSE2"
-[2021-06-08 08:49:33.766] Pen button 2 mapped to 'MOUSE2'
-[2021-06-08 08:49:33.766] >> ButtonMap 3 "MOUSESCROLLB"
-[2021-06-08 08:49:33.767] Pen button 3 mapped to 'MOUSESCROLLB'
-[2021-06-08 08:49:33.767] >> ClearAuxButtonMap
-[2021-06-08 08:49:33.767] Aux button map cleared!
-[2021-06-08 08:49:33.767] >> AuxButtonMap 1 "F14"
-[2021-06-08 08:49:33.767] Aux button 1 mapped to 'F14'
-[2021-06-08 08:49:33.768] >> AuxButtonMap 2 "F15"
-[2021-06-08 08:49:33.768] Aux button 2 mapped to 'F15'
-[2021-06-08 08:49:33.768] >> AuxButtonMap 3 "F16"
-[2021-06-08 08:49:33.768] Aux button 3 mapped to 'F16'
-[2021-06-08 08:49:33.768] >> AuxButtonMap 4 "F17"
-[2021-06-08 08:49:33.768] Aux button 4 mapped to 'F17'
-[2021-06-08 08:49:33.768] >> PressureSensitivity 0
-[2021-06-08 08:49:33.768] Tablet pressure sensitivity = 0.00000
-[2021-06-08 08:49:33.768] >> PressureDeadzone 0
-[2021-06-08 08:49:33.768] Tablet pressure deadzone = 0.00
-[2021-06-08 08:49:33.768] >> ScrollSensitivity 0.5
-[2021-06-08 08:49:33.769] Tablet scroll sensitivity = 0.50 scrolls per millimeter
-[2021-06-08 08:49:33.769] >> ScrollAcceleration 2
-[2021-06-08 08:49:33.769] Tablet scroll acceleration = 2.00
-[2021-06-08 08:49:33.769] >> ScrollStopCursor false
-[2021-06-08 08:49:33.769] Tablet scroll stop cursor = false
-[2021-06-08 08:49:33.769] >> FilterTimerInterval 10
-[2021-06-08 08:49:33.769] Filter Timer Interval = 10 (100.00 Hz)
-[2021-06-08 08:49:33.769] >> Smoothing 0
-[2021-06-08 08:49:33.769] Smoothing = off
-[2021-06-08 08:49:33.769] >> Noise 0
-[2021-06-08 08:49:33.770] Noise Reduction = off
-[2021-06-08 08:49:33.770] >> AntiSmoothing 0
-[2021-06-08 08:49:33.770] Anti-smoothing = off
-[2021-06-08 08:49:33.770] >> Debug false
-[2021-06-08 08:49:33.770] Debug logging = False
-[2021-06-08 08:49:33.770] / End of 'config\usersettings.cfg'
-[2021-06-08 08:49:33.770] >> Start
-[2021-06-08 08:49:33.770] TabletDriver started!
-[2021-06-08 08:49:33.771] [STATUS] TABLET Wacom CTL-4100
-[2021-06-08 08:49:33.771] [STATUS] HID 056A 0374 FF0D 0001
-[2021-06-08 08:49:33.771] [STATUS] WIDTH 152.00000
-[2021-06-08 08:49:33.771] [STATUS] HEIGHT 95.00000
-[2021-06-08 08:49:33.771] [STATUS] MAX_X 15200
-[2021-06-08 08:49:33.771] [STATUS] MAX_Y 9500
-[2021-06-08 08:49:33.771] [STATUS] MAX_PRESSURE 4095
-[2021-06-08 08:49:33.771] [STATUS] AUX_BUTTONS 4
-[2021-06-08 08:49:33.771] / End of 'config\serviceonly.cfg'
-[2021-06-08 08:49:33.772] >> include  profiles/select/big.cfg 
-[2021-06-08 08:49:33.772] \ Reading 'profiles/select/big.cfg'
-[2021-06-08 08:49:33.772] >> TabletArea 152 95 76 47.5
-[2021-06-08 08:49:33.772] Tablet area: (152.00 mm x 95.00 mm X+76.00 mm Y+47.50 mm)
-[2021-06-08 08:49:33.772] >> RelativeSensitivity 12.63 11.37
-[2021-06-08 08:49:33.772] Relative mode sensitivity = X=12.63 px/mm, Y=11.37 px/mm
-[2021-06-08 08:49:33.772] / End of 'profiles/select/big.cfg'
+[2021-06-08 19:27:57.071] \ Reading 'config\serviceonly.cfg'
+[2021-06-08 19:27:57.071] >> Include "config\init.cfg"
+[2021-06-08 19:27:57.071] \ Reading 'config\init.cfg'
+[2021-06-08 19:27:57.071] >> Log startuplog.txt
+[2021-06-08 19:27:57.071] Log file 'startuplog.txt' opened.
+[2021-06-08 19:27:57.071] >> LogDirect true
+[2021-06-08 19:27:57.072] Log direct print = True
+[2021-06-08 19:27:57.072] >> Include "config\tablet.cfg"
+[2021-06-08 19:27:57.072] \ Reading 'config\tablet.cfg'
+[2021-06-08 19:27:57.072] >> #
+[2021-06-08 19:27:57.072] >> # Example tablet definition:
+[2021-06-08 19:27:57.072] >> #   Tablet 0x056a 0x00dd 0x0D 0x01
+[2021-06-08 19:27:57.072] >> #
+[2021-06-08 19:27:57.072] >> # VID: 0x056a
+[2021-06-08 19:27:57.072] >> # PID: 0x00dd
+[2021-06-08 19:27:57.072] >> # HID Usage Page: 0x0D
+[2021-06-08 19:27:57.072] >> # HID Usage: 0x01
+[2021-06-08 19:27:57.072] >> #
+[2021-06-08 19:27:57.072] >> #
+[2021-06-08 19:27:57.072] >> # Wacom CTL-470 (Wacom drivers installed)
+[2021-06-08 19:27:57.072] >> #
+[2021-06-08 19:27:57.072] >> HIDTablet 0x056a 0x00dd 0xFF00 0x000A
+[2021-06-08 19:27:57.073] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x00DD UsagePage=0xFF00 Usage=0x000A Exclusive=False
+[2021-06-08 19:27:57.073] >> Name "Wacom CTL-470 (Wacom drivers installed)"
+[2021-06-08 19:27:57.074] >> ReportId 0x02
+[2021-06-08 19:27:57.074] >> ReportLength 11
+[2021-06-08 19:27:57.074] >> DetectMask 0x40
+[2021-06-08 19:27:57.074] >> MaxX 14720
+[2021-06-08 19:27:57.074] >> MaxY 9200
+[2021-06-08 19:27:57.074] >> MaxPressure 1023
+[2021-06-08 19:27:57.074] >> Width 147.2
+[2021-06-08 19:27:57.074] >> Height 92.0
+[2021-06-08 19:27:57.074] >> TabletFormat WacomDrivers
+[2021-06-08 19:27:57.074] >> #
+[2021-06-08 19:27:57.075] >> # Wacom CTL-470 
+[2021-06-08 19:27:57.075] >> #
+[2021-06-08 19:27:57.075] >> HIDTablet 0x056a 0x00dd 0x0D 0x01
+[2021-06-08 19:27:57.076] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x00DD UsagePage=0x000D Usage=0x0001 Exclusive=False
+[2021-06-08 19:27:57.076] >> Name "Wacom CTL-470"
+[2021-06-08 19:27:57.076] >> ReportId 0x02
+[2021-06-08 19:27:57.076] >> ReportLength 10
+[2021-06-08 19:27:57.076] >> DetectMask 0x40
+[2021-06-08 19:27:57.076] >> MaxX 14720
+[2021-06-08 19:27:57.076] >> MaxY 9200
+[2021-06-08 19:27:57.076] >> MaxPressure 1023
+[2021-06-08 19:27:57.076] >> Width 147.2
+[2021-06-08 19:27:57.077] >> Height 92.0
+[2021-06-08 19:27:57.077] >> InitFeature 0x02 0x02
+[2021-06-08 19:27:57.077] >> #
+[2021-06-08 19:27:57.077] >> # Wacom CTH-470 (Wacom drivers installed)
+[2021-06-08 19:27:57.077] >> #
+[2021-06-08 19:27:57.077] >> HIDTablet 0x056a 0x00de 0xFF00 0x000A
+[2021-06-08 19:27:57.078] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x00DE UsagePage=0xFF00 Usage=0x000A Exclusive=False
+[2021-06-08 19:27:57.078] >> Name "Wacom CTH-470 (Wacom drivers installed)"
+[2021-06-08 19:27:57.078] >> ReportId 0x02
+[2021-06-08 19:27:57.078] >> ReportLength 11
+[2021-06-08 19:27:57.078] >> DetectMask 0x40
+[2021-06-08 19:27:57.078] >> MaxX 14720
+[2021-06-08 19:27:57.079] >> MaxY 9200
+[2021-06-08 19:27:57.079] >> MaxPressure 1023
+[2021-06-08 19:27:57.079] >> Width 147.2
+[2021-06-08 19:27:57.079] >> Height 92.0
+[2021-06-08 19:27:57.079] >> TabletFormat WacomDrivers
+[2021-06-08 19:27:57.079] >> #
+[2021-06-08 19:27:57.079] >> # Wacom CTH-470
+[2021-06-08 19:27:57.079] >> #
+[2021-06-08 19:27:57.079] >> HIDTablet 0x056a 0x00de 0x0D 0x01
+[2021-06-08 19:27:57.080] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x00DE UsagePage=0x000D Usage=0x0001 Exclusive=False
+[2021-06-08 19:27:57.080] >> Name "Wacom CTH-470"
+[2021-06-08 19:27:57.080] >> ReportId 0x02
+[2021-06-08 19:27:57.081] >> ReportLength 10
+[2021-06-08 19:27:57.081] >> DetectMask 0x40
+[2021-06-08 19:27:57.081] >> MaxX 14720
+[2021-06-08 19:27:57.081] >> MaxY 9200
+[2021-06-08 19:27:57.081] >> MaxPressure 1023
+[2021-06-08 19:27:57.081] >> Width 147.2
+[2021-06-08 19:27:57.081] >> Height 92.0
+[2021-06-08 19:27:57.081] >> InitFeature 0x02 0x02
+[2021-06-08 19:27:57.081] >> #
+[2021-06-08 19:27:57.081] >> # Wacom CTH-670 (Wacom drivers installed)
+[2021-06-08 19:27:57.082] >> #
+[2021-06-08 19:27:57.082] >> HIDTablet 0x056a 0x00df 0xFF00 0x000A
+[2021-06-08 19:27:57.083] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x00DF UsagePage=0xFF00 Usage=0x000A Exclusive=False
+[2021-06-08 19:27:57.083] >> Name "Wacom CTH-670 (Wacom drivers installed)"
+[2021-06-08 19:27:57.083] >> ReportId 0x02
+[2021-06-08 19:27:57.083] >> ReportLength 11
+[2021-06-08 19:27:57.083] >> DetectMask 0x40
+[2021-06-08 19:27:57.083] >> MaxX 21648
+[2021-06-08 19:27:57.083] >> MaxY 13700
+[2021-06-08 19:27:57.084] >> MaxPressure 1023
+[2021-06-08 19:27:57.084] >> Width 216.48
+[2021-06-08 19:27:57.084] >> Height 137.0
+[2021-06-08 19:27:57.084] >> TabletFormat WacomDrivers
+[2021-06-08 19:27:57.084] >> #
+[2021-06-08 19:27:57.084] >> # Wacom CTH-670
+[2021-06-08 19:27:57.084] >> #
+[2021-06-08 19:27:57.084] >> HIDTablet 0x056a 0x00df 0x0D 0x01
+[2021-06-08 19:27:57.085] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x00DF UsagePage=0x000D Usage=0x0001 Exclusive=False
+[2021-06-08 19:27:57.085] >> Name "Wacom CTH-670"
+[2021-06-08 19:27:57.085] >> ReportId 0x02
+[2021-06-08 19:27:57.085] >> ReportLength 10
+[2021-06-08 19:27:57.085] >> DetectMask 0x40
+[2021-06-08 19:27:57.085] >> MaxX 21648
+[2021-06-08 19:27:57.085] >> MaxY 13700
+[2021-06-08 19:27:57.085] >> MaxPressure 1023
+[2021-06-08 19:27:57.085] >> Width 216.48
+[2021-06-08 19:27:57.086] >> Height 137.0
+[2021-06-08 19:27:57.086] >> InitFeature 0x02 0x02
+[2021-06-08 19:27:57.086] >> #
+[2021-06-08 19:27:57.086] >> # Wacom CTL-471 (Wacom drivers installed)
+[2021-06-08 19:27:57.086] >> #
+[2021-06-08 19:27:57.086] >> HIDTablet 0x056a 0x0300 0xFF00 0x000A
+[2021-06-08 19:27:57.087] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x0300 UsagePage=0xFF00 Usage=0x000A Exclusive=False
+[2021-06-08 19:27:57.087] >> Name "Wacom CTL-471 (Wacom drivers installed)"
+[2021-06-08 19:27:57.087] >> GetString 1 20
+[2021-06-08 19:27:57.087] >> ReportLength 11
+[2021-06-08 19:27:57.087] >> DetectMask 0x40
+[2021-06-08 19:27:57.087] >> MaxX 15200
+[2021-06-08 19:27:57.088] >> MaxY 9500
+[2021-06-08 19:27:57.088] >> MaxPressure 1023
+[2021-06-08 19:27:57.088] >> Width 152.00
+[2021-06-08 19:27:57.088] >> Height 95.00
+[2021-06-08 19:27:57.088] >> TabletFormat WacomDrivers
+[2021-06-08 19:27:57.088] >> #
+[2021-06-08 19:27:57.088] >> # Wacom CTL-471
+[2021-06-08 19:27:57.088] >> #
+[2021-06-08 19:27:57.088] >> HIDTablet 0x056a 0x0300 0xFF0D 0x01
+[2021-06-08 19:27:57.089] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x0300 UsagePage=0xFF0D Usage=0x0001 Exclusive=False
+[2021-06-08 19:27:57.089] >> Name "Wacom CTL-471"
+[2021-06-08 19:27:57.089] >> ReportLength 10
+[2021-06-08 19:27:57.090] >> DetectMask 0x40
+[2021-06-08 19:27:57.090] >> MaxX 15200
+[2021-06-08 19:27:57.090] >> MaxY 9500
+[2021-06-08 19:27:57.090] >> MaxPressure 1023
+[2021-06-08 19:27:57.090] >> Width 152.00
+[2021-06-08 19:27:57.090] >> Height 95.00
+[2021-06-08 19:27:57.090] >> InitFeature 0x02 0x02
+[2021-06-08 19:27:57.090] >> #
+[2021-06-08 19:27:57.090] >> # Wacom CTL-671 (Wacom drivers installed)
+[2021-06-08 19:27:57.091] >> #
+[2021-06-08 19:27:57.091] >> HIDTablet 0x056a 0x0301 0xFF00 0x000A
+[2021-06-08 19:27:57.091] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x0301 UsagePage=0xFF00 Usage=0x000A Exclusive=False
+[2021-06-08 19:27:57.092] >> Name "Wacom CTL-671 (Wacom drivers installed)"
+[2021-06-08 19:27:57.092] >> ReportLength 11
+[2021-06-08 19:27:57.092] >> DetectMask 0x40
+[2021-06-08 19:27:57.092] >> MaxX 21648
+[2021-06-08 19:27:57.092] >> MaxY 13530
+[2021-06-08 19:27:57.092] >> MaxPressure 1023
+[2021-06-08 19:27:57.092] >> Width 216.48
+[2021-06-08 19:27:57.092] >> Height 135.30
+[2021-06-08 19:27:57.092] >> TabletFormat WacomDrivers
+[2021-06-08 19:27:57.092] >> #
+[2021-06-08 19:27:57.093] >> # Wacom CTL-671
+[2021-06-08 19:27:57.093] >> #
+[2021-06-08 19:27:57.093] >> HIDTablet 0x056a 0x0301 0xFF0D 0x01
+[2021-06-08 19:27:57.094] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x0301 UsagePage=0xFF0D Usage=0x0001 Exclusive=False
+[2021-06-08 19:27:57.094] >> Name "Wacom CTL-671"
+[2021-06-08 19:27:57.094] >> ReportLength 10
+[2021-06-08 19:27:57.094] >> DetectMask 0x40
+[2021-06-08 19:27:57.094] >> MaxX 21648
+[2021-06-08 19:27:57.094] >> MaxY 13530
+[2021-06-08 19:27:57.094] >> MaxPressure 1023
+[2021-06-08 19:27:57.094] >> Width 216.48
+[2021-06-08 19:27:57.094] >> Height 135.30
+[2021-06-08 19:27:57.095] >> InitFeature 0x02 0x02
+[2021-06-08 19:27:57.095] >> #
+[2021-06-08 19:27:57.095] >> # Wacom CTL-472 (Wacom drivers installed)
+[2021-06-08 19:27:57.095] >> #
+[2021-06-08 19:27:57.095] >> HIDTablet 0x056a 0x037a 0xFF00 0x000A
+[2021-06-08 19:27:57.096] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x037A UsagePage=0xFF00 Usage=0x000A Exclusive=False
+[2021-06-08 19:27:57.096] >> Name "Wacom CTL-472 (Wacom drivers installed)"
+[2021-06-08 19:27:57.096] >> ReportId 0x02
+[2021-06-08 19:27:57.096] >> ReportLength 11
+[2021-06-08 19:27:57.096] >> DetectMask 0x40
+[2021-06-08 19:27:57.096] >> MaxX 15200
+[2021-06-08 19:27:57.096] >> MaxY 9500
+[2021-06-08 19:27:57.097] >> MaxPressure 2047
+[2021-06-08 19:27:57.097] >> Width 152.0
+[2021-06-08 19:27:57.097] >> Height 95.0
+[2021-06-08 19:27:57.097] >> TabletFormat WacomDrivers
+[2021-06-08 19:27:57.097] >> #
+[2021-06-08 19:27:57.097] >> # Wacom CTL-472
+[2021-06-08 19:27:57.097] >> #
+[2021-06-08 19:27:57.097] >> HIDTablet 0x056a 0x037a 0xFF0D 0x0001
+[2021-06-08 19:27:57.098] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x037A UsagePage=0xFF0D Usage=0x0001 Exclusive=False
+[2021-06-08 19:27:57.098] >> Name "Wacom CTL-472"
+[2021-06-08 19:27:57.098] >> ReportId 0x02
+[2021-06-08 19:27:57.098] >> ReportLength 10
+[2021-06-08 19:27:57.099] >> DetectMask 0x40
+[2021-06-08 19:27:57.099] >> MaxX 15200
+[2021-06-08 19:27:57.099] >> MaxY 9500
+[2021-06-08 19:27:57.099] >> MaxPressure 2047
+[2021-06-08 19:27:57.099] >> Width 152.0
+[2021-06-08 19:27:57.099] >> Height 95.0
+[2021-06-08 19:27:57.099] >> InitFeature 0x02 0x02
+[2021-06-08 19:27:57.099] >> #
+[2021-06-08 19:27:57.099] >> # Wacom CTL-672 (Wacom drivers installed)
+[2021-06-08 19:27:57.100] >> #
+[2021-06-08 19:27:57.100] >> HIDTablet 0x056a 0x037b 0xFF00 0x000A
+[2021-06-08 19:27:57.100] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x037B UsagePage=0xFF00 Usage=0x000A Exclusive=False
+[2021-06-08 19:27:57.100] >> Name "Wacom CTL-672 (Wacom drivers installed)"
+[2021-06-08 19:27:57.100] >> ReportId 0x02
+[2021-06-08 19:27:57.100] >> ReportLength 10
+[2021-06-08 19:27:57.100] >> DetectMask 0x40
+[2021-06-08 19:27:57.100] >> MaxX 21600
+[2021-06-08 19:27:57.100] >> MaxY 13500
+[2021-06-08 19:27:57.100] >> MaxPressure 2047
+[2021-06-08 19:27:57.100] >> Width 216.00
+[2021-06-08 19:27:57.100] >> Height 135.00
+[2021-06-08 19:27:57.100] >> TabletFormat WacomDrivers
+[2021-06-08 19:27:57.101] >> #
+[2021-06-08 19:27:57.101] >> # Wacom CTL-672
+[2021-06-08 19:27:57.101] >> #
+[2021-06-08 19:27:57.101] >> HIDTablet 0x056a 0x037b 0xFF0D 0x0001
+[2021-06-08 19:27:57.102] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x037B UsagePage=0xFF0D Usage=0x0001 Exclusive=False
+[2021-06-08 19:27:57.102] >> Name "Wacom CTL-672"
+[2021-06-08 19:27:57.102] >> ReportId 0x02
+[2021-06-08 19:27:57.102] >> ReportLength 10
+[2021-06-08 19:27:57.102] >> DetectMask 0x40
+[2021-06-08 19:27:57.102] >> MaxX 21600
+[2021-06-08 19:27:57.102] >> MaxY 13500
+[2021-06-08 19:27:57.102] >> MaxPressure 2047
+[2021-06-08 19:27:57.102] >> Width 216.00
+[2021-06-08 19:27:57.103] >> Height 135.00
+[2021-06-08 19:27:57.103] >> InitFeature 0x02 0x02
+[2021-06-08 19:27:57.103] >> #
+[2021-06-08 19:27:57.103] >> # Wacom CTL-480 (Wacom drivers installed)
+[2021-06-08 19:27:57.103] >> #
+[2021-06-08 19:27:57.103] >> HIDTablet 0x056a 0x030e 0xFF00 0x000A
+[2021-06-08 19:27:57.104] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x030E UsagePage=0xFF00 Usage=0x000A Exclusive=False
+[2021-06-08 19:27:57.104] >> Name "Wacom CTL-480 (Wacom drivers installed)"
+[2021-06-08 19:27:57.104] >> ReportId 0x02
+[2021-06-08 19:27:57.104] >> ReportLength 11
+[2021-06-08 19:27:57.104] >> DetectMask 0x40
+[2021-06-08 19:27:57.105] >> MaxX 15200
+[2021-06-08 19:27:57.105] >> MaxY 9500
+[2021-06-08 19:27:57.105] >> MaxPressure 1023
+[2021-06-08 19:27:57.105] >> Width 152.0
+[2021-06-08 19:27:57.105] >> Height 95.0
+[2021-06-08 19:27:57.105] >> TabletFormat WacomDrivers
+[2021-06-08 19:27:57.105] >> #
+[2021-06-08 19:27:57.105] >> # Wacom CTL-480
+[2021-06-08 19:27:57.105] >> #
+[2021-06-08 19:27:57.105] >> HIDTablet 0x056a 0x030e 0xFF0D 0x0001
+[2021-06-08 19:27:57.106] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x030E UsagePage=0xFF0D Usage=0x0001 Exclusive=False
+[2021-06-08 19:27:57.106] >> Name "Wacom CTL-480"
+[2021-06-08 19:27:57.106] >> ReportId 0x02
+[2021-06-08 19:27:57.107] >> ReportLength 10
+[2021-06-08 19:27:57.107] >> DetectMask 0x40
+[2021-06-08 19:27:57.107] >> MaxX 15200
+[2021-06-08 19:27:57.107] >> MaxY 9500
+[2021-06-08 19:27:57.107] >> MaxPressure 1023
+[2021-06-08 19:27:57.107] >> Width 152.0
+[2021-06-08 19:27:57.107] >> Height 95.0
+[2021-06-08 19:27:57.107] >> InitFeature 0x02 0x02
+[2021-06-08 19:27:57.107] >> #
+[2021-06-08 19:27:57.107] >> # Wacom CTH-480 (Wacom drivers installed)
+[2021-06-08 19:27:57.108] >> #
+[2021-06-08 19:27:57.108] >> HIDTablet 0x056a 0x0302 0xFF00 0x000A
+[2021-06-08 19:27:57.109] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x0302 UsagePage=0xFF00 Usage=0x000A Exclusive=False
+[2021-06-08 19:27:57.109] >> Name "Wacom CTH-480 (Wacom drivers installed)"
+[2021-06-08 19:27:57.109] >> ReportId 0x02
+[2021-06-08 19:27:57.109] >> ReportLength 11
+[2021-06-08 19:27:57.109] >> DetectMask 0x40
+[2021-06-08 19:27:57.109] >> MaxX 15200
+[2021-06-08 19:27:57.109] >> MaxY 9500
+[2021-06-08 19:27:57.109] >> MaxPressure 1023
+[2021-06-08 19:27:57.109] >> Width 152.0
+[2021-06-08 19:27:57.109] >> Height 95.0
+[2021-06-08 19:27:57.110] >> TabletFormat WacomDrivers
+[2021-06-08 19:27:57.110] >> #
+[2021-06-08 19:27:57.110] >> # Wacom CTH-480
+[2021-06-08 19:27:57.110] >> #
+[2021-06-08 19:27:57.110] >> HIDTablet 0x056a 0x0302 0xFF0D 0x0001
+[2021-06-08 19:27:57.111] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x0302 UsagePage=0xFF0D Usage=0x0001 Exclusive=False
+[2021-06-08 19:27:57.111] >> Name "Wacom CTH-480"
+[2021-06-08 19:27:57.111] >> ReportId 0x02
+[2021-06-08 19:27:57.111] >> ReportLength 10
+[2021-06-08 19:27:57.111] >> DetectMask 0x40
+[2021-06-08 19:27:57.111] >> MaxX 15200
+[2021-06-08 19:27:57.111] >> MaxY 9500
+[2021-06-08 19:27:57.112] >> MaxPressure 1023
+[2021-06-08 19:27:57.112] >> Width 152.0
+[2021-06-08 19:27:57.112] >> Height 95.0
+[2021-06-08 19:27:57.112] >> InitFeature 0x02 0x02
+[2021-06-08 19:27:57.112] >> AuxHID 0x056a 0x0302 0xFF00 0x0080
+[2021-06-08 19:27:57.112] >> AuxReportId 0x02
+[2021-06-08 19:27:57.112] >> AuxReportLength 64
+[2021-06-08 19:27:57.112] >> AuxDetectMask 0x80
+[2021-06-08 19:27:57.112] >> AuxIgnoreMask 0x81
+[2021-06-08 19:27:57.112] >> AuxCustomData ReportId Source=0
+[2021-06-08 19:27:57.113] >> AuxCustomData ButtonsLow Source=3 SourceMask=0x0F
+[2021-06-08 19:27:57.113] >> AuxCustomData Detect Source=2
+[2021-06-08 19:27:57.113] >> AuxButtonCount 4
+[2021-06-08 19:27:57.113] >> #
+[2021-06-08 19:27:57.113] >> # Wacom CTL-680 (Wacom drivers installed)
+[2021-06-08 19:27:57.113] >> #
+[2021-06-08 19:27:57.113] >> HIDTablet 0x056a 0x0323 0xFF00 0x000A
+[2021-06-08 19:27:57.114] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x0323 UsagePage=0xFF00 Usage=0x000A Exclusive=False
+[2021-06-08 19:27:57.114] >> Name "Wacom CTL-680"
+[2021-06-08 19:27:57.114] >> ReportId 0x02
+[2021-06-08 19:27:57.114] >> ReportLength 11
+[2021-06-08 19:27:57.115] >> DetectMask 0x40
+[2021-06-08 19:27:57.115] >> MaxX 21600
+[2021-06-08 19:27:57.115] >> MaxY 13500
+[2021-06-08 19:27:57.115] >> MaxPressure 1023
+[2021-06-08 19:27:57.115] >> Width 216.0
+[2021-06-08 19:27:57.115] >> Height 135.0
+[2021-06-08 19:27:57.115] >> TabletFormat WacomDrivers
+[2021-06-08 19:27:57.115] >> #
+[2021-06-08 19:27:57.115] >> # Wacom CTL-680
+[2021-06-08 19:27:57.116] >> #
+[2021-06-08 19:27:57.116] >> HIDTablet 0x056a 0x0323 0xFF0D 0x0001
+[2021-06-08 19:27:57.116] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x0323 UsagePage=0xFF0D Usage=0x0001 Exclusive=False
+[2021-06-08 19:27:57.117] >> Name "Wacom CTL-680"
+[2021-06-08 19:27:57.117] >> ReportId 0x02
+[2021-06-08 19:27:57.117] >> ReportLength 10
+[2021-06-08 19:27:57.117] >> DetectMask 0x40
+[2021-06-08 19:27:57.117] >> MaxX 21600
+[2021-06-08 19:27:57.117] >> MaxY 13500
+[2021-06-08 19:27:57.117] >> MaxPressure 1023
+[2021-06-08 19:27:57.117] >> Width 216.0
+[2021-06-08 19:27:57.117] >> Height 135.0
+[2021-06-08 19:27:57.117] >> InitFeature 0x02 0x02
+[2021-06-08 19:27:57.118] >> #
+[2021-06-08 19:27:57.118] >> # Wacom CTH-680 (Wacom drivers installed)
+[2021-06-08 19:27:57.118] >> #
+[2021-06-08 19:27:57.118] >> HIDTablet 0x056a 0x0303 0xFF00 0x000A
+[2021-06-08 19:27:57.119] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x0303 UsagePage=0xFF00 Usage=0x000A Exclusive=False
+[2021-06-08 19:27:57.119] >> Name "Wacom CTH-680 (Wacom drivers installed)"
+[2021-06-08 19:27:57.119] >> ReportId 0x02
+[2021-06-08 19:27:57.119] >> ReportLength 11
+[2021-06-08 19:27:57.119] >> DetectMask 0x40
+[2021-06-08 19:27:57.119] >> MaxX 21600
+[2021-06-08 19:27:57.119] >> MaxY 13500
+[2021-06-08 19:27:57.119] >> MaxPressure 1023
+[2021-06-08 19:27:57.120] >> Width 216.0
+[2021-06-08 19:27:57.120] >> Height 135.0
+[2021-06-08 19:27:57.120] >> TabletFormat WacomDrivers
+[2021-06-08 19:27:57.120] >> #
+[2021-06-08 19:27:57.120] >> # Wacom CTH-680
+[2021-06-08 19:27:57.120] >> #
+[2021-06-08 19:27:57.120] >> HIDTablet 0x056a 0x0303 0xFF0D 0x0001
+[2021-06-08 19:27:57.121] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x0303 UsagePage=0xFF0D Usage=0x0001 Exclusive=False
+[2021-06-08 19:27:57.121] >> Name "Wacom CTH-680"
+[2021-06-08 19:27:57.121] >> ReportId 0x02
+[2021-06-08 19:27:57.121] >> ReportLength 10
+[2021-06-08 19:27:57.121] >> DetectMask 0x40
+[2021-06-08 19:27:57.121] >> MaxX 21600
+[2021-06-08 19:27:57.122] >> MaxY 13500
+[2021-06-08 19:27:57.122] >> MaxPressure 1023
+[2021-06-08 19:27:57.122] >> Width 216.0
+[2021-06-08 19:27:57.122] >> Height 135.0
+[2021-06-08 19:27:57.122] >> InitFeature 0x02 0x02
+[2021-06-08 19:27:57.122] >> #
+[2021-06-08 19:27:57.122] >> # Wacom CTL-490 (Wacom drivers installed)
+[2021-06-08 19:27:57.122] >> #
+[2021-06-08 19:27:57.122] >> HIDTablet 0x056a 0x033b 0xFF00 0x000A
+[2021-06-08 19:27:57.123] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x033B UsagePage=0xFF00 Usage=0x000A Exclusive=False
+[2021-06-08 19:27:57.123] >> Name "Wacom CTL-490 (Wacom drivers installed)"
+[2021-06-08 19:27:57.123] >> ReportId 0x10
+[2021-06-08 19:27:57.124] >> ReportLength 11
+[2021-06-08 19:27:57.124] >> DetectMask 0xA0
+[2021-06-08 19:27:57.124] >> MaxX 15200
+[2021-06-08 19:27:57.124] >> MaxY 9500
+[2021-06-08 19:27:57.124] >> MaxPressure 2047
+[2021-06-08 19:27:57.124] >> KeepTipDown 2
+[2021-06-08 19:27:57.124] >> Width 152.0
+[2021-06-08 19:27:57.124] >> Height 95.0
+[2021-06-08 19:27:57.124] >> TabletFormat WacomIntuosV2
+[2021-06-08 19:27:57.124] >> #
+[2021-06-08 19:27:57.125] >> # Wacom CTL-490
+[2021-06-08 19:27:57.125] >> #
+[2021-06-08 19:27:57.125] >> HIDTablet 0x056a 0x033b 0xFF0D 0x0001
+[2021-06-08 19:27:57.126] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x033B UsagePage=0xFF0D Usage=0x0001 Exclusive=False
+[2021-06-08 19:27:57.126] >> Name "Wacom CTL-490"
+[2021-06-08 19:27:57.126] >> ReportId 0x10
+[2021-06-08 19:27:57.126] >> ReportLength 10
+[2021-06-08 19:27:57.126] >> DetectMask 0xA0
+[2021-06-08 19:27:57.126] >> MaxX 15200
+[2021-06-08 19:27:57.126] >> MaxY 9500
+[2021-06-08 19:27:57.126] >> MaxPressure 2047
+[2021-06-08 19:27:57.126] >> KeepTipDown 2
+[2021-06-08 19:27:57.127] >> Width 152.0
+[2021-06-08 19:27:57.127] >> Height 95.0
+[2021-06-08 19:27:57.127] >> InitFeature 0x02 0x02
+[2021-06-08 19:27:57.127] >> TabletFormat WacomIntuosV2
+[2021-06-08 19:27:57.127] >> AuxHID 0x056a 0x033b 0xFF00 0x0080
+[2021-06-08 19:27:57.127] >> AuxReportId 0x02
+[2021-06-08 19:27:57.127] >> AuxReportLength 64
+[2021-06-08 19:27:57.127] >> AuxDetectMask 0x80
+[2021-06-08 19:27:57.127] >> AuxIgnoreMask 0x81
+[2021-06-08 19:27:57.127] >> AuxCustomData ReportId Source=0
+[2021-06-08 19:27:57.128] >> AuxCustomData ButtonsLow Source=3 SourceMask=0x0F
+[2021-06-08 19:27:57.128] >> AuxCustomData Detect Source=2
+[2021-06-08 19:27:57.128] >> AuxButtonCount 4
+[2021-06-08 19:27:57.128] >> #
+[2021-06-08 19:27:57.128] >> # Wacom CTH-490 (Wacom drivers installed)
+[2021-06-08 19:27:57.128] >> #
+[2021-06-08 19:27:57.128] >> HIDTablet 0x056a 0x033c 0xFF00 0x000A
+[2021-06-08 19:27:57.129] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x033C UsagePage=0xFF00 Usage=0x000A Exclusive=False
+[2021-06-08 19:27:57.129] >> Name "Wacom CTH-490 (Wacom drivers installed)"
+[2021-06-08 19:27:57.129] >> ReportId 0x10
+[2021-06-08 19:27:57.129] >> ReportLength 11
+[2021-06-08 19:27:57.129] >> DetectMask 0xA0
+[2021-06-08 19:27:57.130] >> MaxX 15200
+[2021-06-08 19:27:57.130] >> MaxY 9500
+[2021-06-08 19:27:57.130] >> MaxPressure 2047
+[2021-06-08 19:27:57.130] >> KeepTipDown 2
+[2021-06-08 19:27:57.130] >> Width 152.0
+[2021-06-08 19:27:57.130] >> Height 95.0
+[2021-06-08 19:27:57.130] >> TabletFormat WacomIntuosV2
+[2021-06-08 19:27:57.130] >> #
+[2021-06-08 19:27:57.131] >> # Wacom CTH-490
+[2021-06-08 19:27:57.131] >> #
+[2021-06-08 19:27:57.131] >> HIDTablet 0x056a 0x033c 0xFF0D 0x0001
+[2021-06-08 19:27:57.132] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x033C UsagePage=0xFF0D Usage=0x0001 Exclusive=False
+[2021-06-08 19:27:57.132] >> Name "Wacom CTH-490"
+[2021-06-08 19:27:57.132] >> ReportId 0x10
+[2021-06-08 19:27:57.132] >> ReportLength 10
+[2021-06-08 19:27:57.132] >> DetectMask 0xA0
+[2021-06-08 19:27:57.132] >> MaxX 15200
+[2021-06-08 19:27:57.132] >> MaxY 9500
+[2021-06-08 19:27:57.132] >> MaxPressure 2047
+[2021-06-08 19:27:57.133] >> KeepTipDown 2
+[2021-06-08 19:27:57.133] >> Width 152.0
+[2021-06-08 19:27:57.133] >> Height 95.0
+[2021-06-08 19:27:57.133] >> InitFeature 0x02 0x02
+[2021-06-08 19:27:57.133] >> TabletFormat WacomIntuosV2
+[2021-06-08 19:27:57.133] >> #
+[2021-06-08 19:27:57.133] >> # Wacom CTL-690 (Wacom drivers installed)
+[2021-06-08 19:27:57.133] >> #
+[2021-06-08 19:27:57.133] >> HIDTablet 0x056A 0x033D 0xFF00 0x000A
+[2021-06-08 19:27:57.134] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x033D UsagePage=0xFF00 Usage=0x000A Exclusive=False
+[2021-06-08 19:27:57.134] >> Name "Wacom CTL-690 (Wacom drivers installed)"
+[2021-06-08 19:27:57.134] >> ReportId 0x10
+[2021-06-08 19:27:57.135] >> ReportLength 11
+[2021-06-08 19:27:57.135] >> DetectMask 0xA0
+[2021-06-08 19:27:57.135] >> MaxX 21600
+[2021-06-08 19:27:57.135] >> MaxY 13500
+[2021-06-08 19:27:57.135] >> MaxPressure 2047
+[2021-06-08 19:27:57.135] >> Width 216.000
+[2021-06-08 19:27:57.135] >> Height 135.000
+[2021-06-08 19:27:57.135] >> KeepTipDown 2
+[2021-06-08 19:27:57.135] >> TabletFormat WacomIntuosV2
+[2021-06-08 19:27:57.135] >> #
+[2021-06-08 19:27:57.136] >> # Wacom CTL-690
+[2021-06-08 19:27:57.136] >> #
+[2021-06-08 19:27:57.136] >> HIDTablet 0x056A 0x033D 0xFF0D 0x0001
+[2021-06-08 19:27:57.137] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x033D UsagePage=0xFF0D Usage=0x0001 Exclusive=False
+[2021-06-08 19:27:57.137] >> Name "Wacom CTL-690"
+[2021-06-08 19:27:57.137] >> ReportId 0x10
+[2021-06-08 19:27:57.137] >> ReportLength 10
+[2021-06-08 19:27:57.137] >> DetectMask 0xA0
+[2021-06-08 19:27:57.137] >> MaxX 21600
+[2021-06-08 19:27:57.137] >> MaxY 13500
+[2021-06-08 19:27:57.137] >> MaxPressure 2047
+[2021-06-08 19:27:57.137] >> Width 216.000
+[2021-06-08 19:27:57.138] >> Height 135.000
+[2021-06-08 19:27:57.138] >> KeepTipDown 2
+[2021-06-08 19:27:57.138] >> InitFeature 0x02 0x02
+[2021-06-08 19:27:57.138] >> TabletFormat WacomIntuosV2
+[2021-06-08 19:27:57.138] >> #
+[2021-06-08 19:27:57.138] >> # Wacom CTH-690 (Wacom drivers installed)
+[2021-06-08 19:27:57.138] >> #
+[2021-06-08 19:27:57.138] >> HIDTablet 0x056A 0x033E 0xFF00 0x000A
+[2021-06-08 19:27:57.139] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x033E UsagePage=0xFF00 Usage=0x000A Exclusive=False
+[2021-06-08 19:27:57.139] >> Name "Wacom CTH-690"
+[2021-06-08 19:27:57.139] >> ReportId 0x10
+[2021-06-08 19:27:57.140] >> ReportLength 11
+[2021-06-08 19:27:57.140] >> DetectMask 0xA0
+[2021-06-08 19:27:57.140] >> MaxX 21600
+[2021-06-08 19:27:57.140] >> MaxY 13500
+[2021-06-08 19:27:57.140] >> MaxPressure 2047
+[2021-06-08 19:27:57.140] >> Width 216.000
+[2021-06-08 19:27:57.140] >> Height 135.000
+[2021-06-08 19:27:57.141] >> KeepTipDown 2
+[2021-06-08 19:27:57.141] >> TabletFormat WacomIntuosV2
+[2021-06-08 19:27:57.141] >> #
+[2021-06-08 19:27:57.141] >> # Wacom CTH-690
+[2021-06-08 19:27:57.141] >> #
+[2021-06-08 19:27:57.141] >> HIDTablet 0x056A 0x033E 0xFF0D 0x0001
+[2021-06-08 19:27:57.142] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x033E UsagePage=0xFF0D Usage=0x0001 Exclusive=False
+[2021-06-08 19:27:57.142] >> Name "Wacom CTH-690"
+[2021-06-08 19:27:57.142] >> ReportId 0x10
+[2021-06-08 19:27:57.142] >> ReportLength 10
+[2021-06-08 19:27:57.143] >> DetectMask 0xA0
+[2021-06-08 19:27:57.143] >> MaxX 21600
+[2021-06-08 19:27:57.143] >> MaxY 13500
+[2021-06-08 19:27:57.143] >> MaxPressure 2047
+[2021-06-08 19:27:57.143] >> Width 216.000
+[2021-06-08 19:27:57.143] >> Height 135.000
+[2021-06-08 19:27:57.143] >> KeepTipDown 2
+[2021-06-08 19:27:57.143] >> InitFeature 0x02 0x02
+[2021-06-08 19:27:57.143] >> TabletFormat WacomIntuosV2
+[2021-06-08 19:27:57.143] >> #
+[2021-06-08 19:27:57.144] >> # Wacom CTL-4100 (Wacom drivers installed)
+[2021-06-08 19:27:57.144] >> #
+[2021-06-08 19:27:57.144] >> HIDTablet 0x056a 0x0376 0xFF00 0x000A
+[2021-06-08 19:27:57.145] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x0376 UsagePage=0xFF00 Usage=0x000A Exclusive=False
+[2021-06-08 19:27:57.145] >> HIDTablet 0x056a 0x0374 0xFF00 0x000A
+[2021-06-08 19:27:57.146] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x0374 UsagePage=0xFF00 Usage=0x000A Exclusive=False
+[2021-06-08 19:27:57.146] >> Name "Wacom CTL-4100 (Wacom drivers installed)"
+[2021-06-08 19:27:57.146] >> ReportId 0x10
+[2021-06-08 19:27:57.146] >> ReportLength 193
+[2021-06-08 19:27:57.146] >> DetectMask 0x20
+[2021-06-08 19:27:57.146] >> MaxX 15200
+[2021-06-08 19:27:57.146] >> MaxY 9500
+[2021-06-08 19:27:57.146] >> MaxPressure 4095
+[2021-06-08 19:27:57.146] >> Width 152.0
+[2021-06-08 19:27:57.147] >> Height 95.0
+[2021-06-08 19:27:57.147] >> TabletFormat WacomIntuosV3
+[2021-06-08 19:27:57.147] >> #
+[2021-06-08 19:27:57.147] >> # Wacom CTL-4100
+[2021-06-08 19:27:57.147] >> #
+[2021-06-08 19:27:57.147] >> HIDTablet 0x056a 0x0376 0xFF0D 0x0001
+[2021-06-08 19:27:57.148] [WARNING] Can't open HID tablet Vendor=0x056A Product=0x0376 UsagePage=0xFF0D Usage=0x0001 Exclusive=False
+[2021-06-08 19:27:57.148] >> HIDTablet 0x056a 0x0374 0xFF0D 0x0001
+[2021-06-08 19:27:57.149] Tablet found! Manufacturer='Wacom Co.,Ltd.', Product='Intuos S', Serial='0CH00R2012893'
+[2021-06-08 19:27:57.149] >> Name "Wacom CTL-4100"
+[2021-06-08 19:27:57.150] Tablet name = 'Wacom CTL-4100'
+[2021-06-08 19:27:57.150] >> ReportId 0x10
+[2021-06-08 19:27:57.150] Tablet report id = 16
+[2021-06-08 19:27:57.150] >> ReportLength 192
+[2021-06-08 19:27:57.150] Tablet report length = 192
+[2021-06-08 19:27:57.150] >> DetectMask 0x20
+[2021-06-08 19:27:57.150] Tablet detect mask = 0x20
+[2021-06-08 19:27:57.151] >> MaxX 15200
+[2021-06-08 19:27:57.151] Tablet maximum X value = 15200
+[2021-06-08 19:27:57.151] >> MaxY 9500
+[2021-06-08 19:27:57.151] Tablet maximum Y value = 9500
+[2021-06-08 19:27:57.151] >> MaxPressure 4095
+[2021-06-08 19:27:57.151] Tablet maximum pressure value = 4095
+[2021-06-08 19:27:57.151] >> Width 152.0
+[2021-06-08 19:27:57.151] Tablet width = 152.00 mm
+[2021-06-08 19:27:57.152] >> Height 95.0
+[2021-06-08 19:27:57.152] Tablet height = 95.00 mm
+[2021-06-08 19:27:57.152] >> TabletFormat WacomIntuosV3
+[2021-06-08 19:27:57.152] Tablet format = 2
+[2021-06-08 19:27:57.152] >> AuxHID 0x056a 0x0376 0xFF0D 0x0001
+[2021-06-08 19:27:57.153] [ERROR] Can't open auxiliary HID 0x056A 0x0376 0xFF0D 0x0001
+[2021-06-08 19:27:57.153] >> AuxHID 0x056a 0x0374 0xFF0D 0x0001
+[2021-06-08 19:27:57.154] HID auxiliary device found!
+[2021-06-08 19:27:57.154] >> AuxReportId 0x11
+[2021-06-08 19:27:57.154] Tablet aux report id = 17
+[2021-06-08 19:27:57.154] >> AuxReportLength 192
+[2021-06-08 19:27:57.155] Tablet aux report length = 192
+[2021-06-08 19:27:57.155] >> AuxCustomData ReportId Source=0
+[2021-06-08 19:27:57.155] Custom data format: Target=0, TargetMask=0xFF, Source=0, SourceMask=0xFF, SourceShift=0
+[2021-06-08 19:27:57.155] >> AuxCustomData ButtonsLow Source=1 SourceMask=0x0F
+[2021-06-08 19:27:57.155] Custom data format: Target=1, TargetMask=0xFF, Source=1, SourceMask=0x0F, SourceShift=0
+[2021-06-08 19:27:57.155] >> AuxButtonCount 4
+[2021-06-08 19:27:57.155] Tablet aux button count = 4
+[2021-06-08 19:27:57.155] >> #
+[2021-06-08 19:27:57.155] >> # Wacom CTL-4100 Bluetooth
+[2021-06-08 19:27:57.156] >> #
+[2021-06-08 19:27:57.156] >> HIDTablet 0x056a 0x0377 0xFF0D 0x0001
+[2021-06-08 19:27:57.156] Tablet is already defined!
+[2021-06-08 19:27:57.156] / End of 'config\tablet.cfg'
+[2021-06-08 19:27:57.156] >> Include "config\wacom.cfg"
+[2021-06-08 19:27:57.156] \ Reading 'config\wacom.cfg'
+[2021-06-08 19:27:57.156] >> #
+[2021-06-08 19:27:57.156] >> # This file is automatically generated from these sources:
+[2021-06-08 19:27:57.156] >> #   https://github.com/linuxwacom/input-wacom/blob/master/3.7/wacom_wac.h
+[2021-06-08 19:27:57.156] >> #   https://github.com/linuxwacom/input-wacom/blob/master/3.7/wacom_wac.c
+[2021-06-08 19:27:57.157] >> #   https://github.com/linuxwacom/input-wacom/wiki/Device-IDs
+[2021-06-08 19:27:57.157] >> #
+[2021-06-08 19:27:57.157] >> # DO NOT EDIT THIS FILE!
+[2021-06-08 19:27:57.157] >> #   Make the configuration modifications to the tablet.cfg
+[2021-06-08 19:27:57.157] >> #   Tablet.cfg will overwrite the settings from this file, if the tablet is found.
+[2021-06-08 19:27:57.157] >> #
+[2021-06-08 19:27:57.157] >> # Wacom PTK-450
+[2021-06-08 19:27:57.157] >> HIDTablet 0x056A 0x0029 0xFF0D 0x0001
+[2021-06-08 19:27:57.157] Tablet is already defined!
+[2021-06-08 19:27:57.158] / End of 'config\wacom.cfg'
+[2021-06-08 19:27:57.158] >> Include "config\user.cfg"
+[2021-06-08 19:27:57.158] \ Reading 'config\user.cfg'
+[2021-06-08 19:27:57.158] / End of 'config\user.cfg'
+[2021-06-08 19:27:57.158] / End of 'config\init.cfg'
+[2021-06-08 19:27:57.158] >> Include "config\usersettings.cfg"
+[2021-06-08 19:27:57.158] \ Reading 'config\usersettings.cfg'
+[2021-06-08 19:27:57.158] >> DesktopSize 2400 1350
+[2021-06-08 19:27:57.158] Desktop size = (2400.00 px x 1350.00 px)
+[2021-06-08 19:27:57.158] >> ScreenArea 2400 1350 0 0
+[2021-06-08 19:27:57.159] Screen area = (w=2400.00, h=1350.00, x=0.00, y=0.00)
+[2021-06-08 19:27:57.159] >> TabletArea 152 85.5 76 42.75
+[2021-06-08 19:27:57.159] Tablet area: (152.00 mm x 85.50 mm X+76.00 mm Y+42.75 mm)
+[2021-06-08 19:27:57.159] >> Rotate 0
+[2021-06-08 19:27:57.159] Rotation matrix = [1.000000,-0.000000,0.000000,1.000000]
+[2021-06-08 19:27:57.159] >> OutputMode Absolute
+[2021-06-08 19:27:57.159] Output Mode = Absolute
+[2021-06-08 19:27:57.159] >> ClearButtonMap
+[2021-06-08 19:27:57.160] Pen button map cleared!
+[2021-06-08 19:27:57.160] >> ButtonMap 1 "MOUSE1"
+[2021-06-08 19:27:57.160] Pen button 1 mapped to 'MOUSE1'
+[2021-06-08 19:27:57.160] >> ButtonMap 2 "MOUSE2"
+[2021-06-08 19:27:57.160] Pen button 2 mapped to 'MOUSE2'
+[2021-06-08 19:27:57.160] >> ButtonMap 3 "MOUSESCROLLB"
+[2021-06-08 19:27:57.160] Pen button 3 mapped to 'MOUSESCROLLB'
+[2021-06-08 19:27:57.161] >> ClearAuxButtonMap
+[2021-06-08 19:27:57.161] Aux button map cleared!
+[2021-06-08 19:27:57.161] >> AuxButtonMap 1 "F14"
+[2021-06-08 19:27:57.161] Aux button 1 mapped to 'F14'
+[2021-06-08 19:27:57.161] >> AuxButtonMap 2 "F15"
+[2021-06-08 19:27:57.161] Aux button 2 mapped to 'F15'
+[2021-06-08 19:27:57.162] >> AuxButtonMap 3 "F16"
+[2021-06-08 19:27:57.162] Aux button 3 mapped to 'F16'
+[2021-06-08 19:27:57.162] >> AuxButtonMap 4 "F17"
+[2021-06-08 19:27:57.162] Aux button 4 mapped to 'F17'
+[2021-06-08 19:27:57.162] >> PressureSensitivity 0
+[2021-06-08 19:27:57.162] Tablet pressure sensitivity = 0.00000
+[2021-06-08 19:27:57.162] >> PressureDeadzone 0
+[2021-06-08 19:27:57.162] Tablet pressure deadzone = 0.00
+[2021-06-08 19:27:57.162] >> ScrollSensitivity 0.5
+[2021-06-08 19:27:57.163] Tablet scroll sensitivity = 0.50 scrolls per millimeter
+[2021-06-08 19:27:57.163] >> ScrollAcceleration 2
+[2021-06-08 19:27:57.163] Tablet scroll acceleration = 2.00
+[2021-06-08 19:27:57.163] >> ScrollStopCursor false
+[2021-06-08 19:27:57.163] Tablet scroll stop cursor = false
+[2021-06-08 19:27:57.163] >> FilterTimerInterval 10
+[2021-06-08 19:27:57.163] Filter Timer Interval = 10 (100.00 Hz)
+[2021-06-08 19:27:57.163] >> Smoothing 0
+[2021-06-08 19:27:57.163] Smoothing = off
+[2021-06-08 19:27:57.163] >> Noise 0
+[2021-06-08 19:27:57.164] Noise Reduction = off
+[2021-06-08 19:27:57.164] >> AntiSmoothing 0
+[2021-06-08 19:27:57.164] Anti-smoothing = off
+[2021-06-08 19:27:57.164] >> Debug false
+[2021-06-08 19:27:57.164] Debug logging = False
+[2021-06-08 19:27:57.164] / End of 'config\usersettings.cfg'
+[2021-06-08 19:27:57.164] >> Start
+[2021-06-08 19:27:57.164] TabletDriver started!
+[2021-06-08 19:27:57.165] [STATUS] TABLET Wacom CTL-4100
+[2021-06-08 19:27:57.165] [STATUS] HID 056A 0374 FF0D 0001
+[2021-06-08 19:27:57.165] [STATUS] WIDTH 152.00000
+[2021-06-08 19:27:57.165] [STATUS] HEIGHT 95.00000
+[2021-06-08 19:27:57.165] [STATUS] MAX_X 15200
+[2021-06-08 19:27:57.165] [STATUS] MAX_Y 9500
+[2021-06-08 19:27:57.165] [STATUS] MAX_PRESSURE 4095
+[2021-06-08 19:27:57.165] [STATUS] AUX_BUTTONS 4
+[2021-06-08 19:27:57.165] / End of 'config\serviceonly.cfg'
+[2021-06-08 19:27:57.166] >> include  profiles/select/big.cfg 
+[2021-06-08 19:27:57.166] \ Reading 'profiles/select/big.cfg'
+[2021-06-08 19:27:57.166] >> TabletArea 152 95 76 47.5
+[2021-06-08 19:27:57.166] Tablet area: (152.00 mm x 95.00 mm X+76.00 mm Y+47.50 mm)
+[2021-06-08 19:27:57.166] >> RelativeSensitivity 12.63 11.37
+[2021-06-08 19:27:57.166] Relative mode sensitivity = X=12.63 px/mm, Y=11.37 px/mm
+[2021-06-08 19:27:57.166] / End of 'profiles/select/big.cfg'
