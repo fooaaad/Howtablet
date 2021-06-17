@@ -74,7 +74,8 @@ HideTrayTip() {
 
 howku(mode)
 {
-	ControlSend,, include  profiles/select/%mode%.cfg {enter}, Tabletdriver
+	ControlSend,, {text}include  profiles/select/%mode%.cfg , Tabletdriver
+	ControlSend,, {enter}, Tabletdriver
 	FileAppend,, %InDir%save\%mode%.howku
 	return
 }
@@ -85,18 +86,20 @@ If (ErrorLevel = 0)
 {
 	Run, cmd /k "Title Tabletdriver" ,,hide,Tabletdriver
 	WinWait, Tabletdriver
-	ControlSendraw,, pushd , Tabletdriver
+	ControlSend,, {text}pushd , Tabletdriver
 	ControlSend,, {enter}, Tabletdriver
-	ControlSendraw,, RunServiceOnly.bat, Tabletdriver
+	ControlSend,, {text}RunServiceOnly.bat, Tabletdriver
 	ControlSend,, {enter}, Tabletdriver
 	sleep, 50
 	if FileExist("save\big.howku")
 	{
-		ControlSend,, include  profiles/select/big.cfg {enter}, Tabletdriver
+		ControlSend,, {text}include  profiles/select/big.cfg, Tabletdriver
+		ControlSend,, {enter}, Tabletdriver
 	}
 	if FileExist("save\small.howku")
 	{
-		ControlSend,, include profiles/select/small.cfg {enter}, Tabletdriver
+		ControlSend,, {text}include profiles/select/small.cfg, Tabletdriver
+		ControlSend,, {enter}, Tabletdriver
 	}
 }
 
@@ -170,7 +173,8 @@ if FileExist(fileexits)
 Else
 {
 	tooleytipe("Default profile",1000)
-	ControlSend,, include  profiles/default.cfg {enter}, Tabletdriver
+	ControlSend,, {text}include  profiles/default.cfg, Tabletdriver
+	ControlSend,, {enter}, Tabletdriver
 	return
 }
 
@@ -178,12 +182,14 @@ Else
 
 ^!f15::
 WinGetPos X, Y, W, H, A
-ControlSend,, screenArea  %W% %H% %X% %Y% {enter}, Tabletdriver
+ControlSend,,{text} screenArea  %W% %H% %X% %Y%, Tabletdriver
+ControlSend,, {enter}, Tabletdriver
 tooleytipe("WindowArea Mode",1000)
 return
 
 +!f15::
-ControlSend,, screenArea  2400 1350 0 0 {enter}, Tabletdriver
+ControlSend,, {text}screenArea  2400 1350 0 0 , Tabletdriver
+ControlSend,, {enter}, Tabletdriver
 tooleytipe("ScreenArea Mode",1000)
 return
 
