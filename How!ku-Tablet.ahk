@@ -86,8 +86,6 @@ If (ErrorLevel = 0)
 {
 	Run, cmd /k "Title Tabletdriver" ,,hide,Tabletdriver
 	WinWait, Tabletdriver
-	ControlSend,, {text}pushd , Tabletdriver
-	ControlSend,, {enter}, Tabletdriver
 	ControlSend,, {text}RunServiceOnly.bat, Tabletdriver
 	ControlSend,, {enter}, Tabletdriver
 	sleep, 50
