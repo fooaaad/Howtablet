@@ -84,7 +84,15 @@ howku(mode)
 Process, Exist,  TabletDriverService.exe
 If (ErrorLevel = 0)
 {
-	Run, cmd /k "Title Tabletdriver" ,,hide,Tabletdriver
+    If (A_IsAdmin)       ;- I'm 'admin' so it works
+    {
+	    Run, *RunAs %comspec% /k "Title Tabletdriver" ,,hide,Tabletdriver
+    }
+    else{
+        msgbox,Go back i want to be monke (run it as admin) 
+        exitapp
+    }
+
 	WinWait, Tabletdriver
 	ControlSend,, {text}RunServiceOnly.bat, Tabletdriver
 	ControlSend,, {enter}, Tabletdriver
