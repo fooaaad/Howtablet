@@ -168,8 +168,10 @@ return
 KeyWait, Ctrl
 WinGet, Active_ID, ID, A
 WinGet, NewTitle, ProcessName, ahk_id %Active_ID%
+StringTrimRight, NewTitle2, NewTitle, 1
 fileexits = profiles\%NewTitle%.cfg
-if FileExist(fileexits)
+fileexits2 = profiles\%NewTitle2%.cfg
+if FileExist(fileexits) or FileExist(fileexits2)
 {
 	tooleytipe(NewTitle " profile",1000)
 	ControlSend,, {text}include profiles/%NewTitle%.cfg, Tabletdriver
