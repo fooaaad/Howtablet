@@ -1,5 +1,4 @@
 ; search for #=# to find keywords in this looooooong looooooong script
-; search for #=# to find keywords in this looooooong looooooong script
 #NoEnv
 SetKeyDelay, 0, 50
 #SingleInstance force
