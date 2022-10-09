@@ -173,14 +173,12 @@ fileexits = profiles\%NewTitle%.cfg
 fileexits2 = profiles\%NewTitle2%.cfg
 if FileExist(fileexits) or FileExist(fileexits2)
 {
-	tooleytipe(NewTitle " profile",1000)
 	ControlSend,, {text}include profiles/%NewTitle%.cfg, Tabletdriver
 	ControlSend,, {enter}, Tabletdriver
 	return
 }
 Else
 {
-	tooleytipe("Default profile",1000)
 	ControlSend,, {text}include  profiles/default.cfg, Tabletdriver
 	ControlSend,, {enter}, Tabletdriver
 	return
